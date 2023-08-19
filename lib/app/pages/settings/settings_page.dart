@@ -14,7 +14,12 @@ class _Settings extends State<Settings> {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        SwitchThemeWidget()
+        Row(
+          children: [
+            Text("Use dark theme? "),
+            SwitchThemeWidget()
+          ]
+        )
       ],
     );
   }

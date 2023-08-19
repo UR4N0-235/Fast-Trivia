@@ -6,8 +6,12 @@ class SwitchThemeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Switch(
-        value: AppController.instance.themeSwitch.value,
-        onChanged: (value) => AppController.instance.changeTheme(value));
+    return ValueListenableBuilder(
+        valueListenable: AppController.instance.themeSwitch,
+        builder: (context, isDark, child) {
+          return Switch(
+              value: AppController.instance.themeSwitch.value,
+              onChanged: (value) => AppController.instance.changeTheme(value));
+        });
   }
 }
