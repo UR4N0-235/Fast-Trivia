@@ -1,0 +1,535 @@
+[
+    {
+        "topic": "matematica",
+        "description":"questoes simples de matematica",
+        "question_list":[
+            {
+                "id": 1,
+                "title": "Adição",
+                "question": "3+5",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "2",
+                        "reason": "3+5 não é 2"
+                    },
+                    {
+                        "id": 2,
+                        "text": "12",
+                        "reason": "3+5 não é 12"
+                    },
+                    {
+                        "id": 3,
+                        "text": "7",
+                        "reason": "3+5 é 7!"
+                    },
+                    {
+                        "id": 4,
+                        "text": "8",
+                        "reason": "3+5 não é 8"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Subtração",
+                "question": "10-4",
+                "correct_alternative": 6,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "2",
+                        "reason": "10-4 não é 2"
+                    },
+                    {
+                        "id": 2,
+                        "text": "14",
+                        "reason": "10-4 não é 14"
+                    },
+                    {
+                        "id": 3,
+                        "text": "6",
+                        "reason": "10-4 é 6!"
+                    },
+                    {
+                        "id": 4,
+                        "text": "8",
+                        "reason": "10-4 não é 8"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Multiplicação",
+                "question": "6x3",
+                "correct_alternative": 9,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "9",
+                        "reason": "6x3 não é 9"
+                    },
+                    {
+                        "id": 2,
+                        "text": "12",
+                        "reason": "6x3 não é 12"
+                    },
+                    {
+                        "id": 3,
+                        "text": "18",
+                        "reason": "6x3 é 18!"
+                    },
+                    {
+                        "id": 4,
+                        "text": "21",
+                        "reason": "6x3 não é 21"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Divisão",
+                "question": "20 ÷ 4",
+                "correct_alternative": 4,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "2",
+                        "reason": "20 ÷ 4 não é 2"
+                    },
+                    {
+                        "id": 2,
+                        "text": "5",
+                        "reason": "20 ÷ 4 não é 5"
+                    },
+                    {
+                        "id": 3,
+                        "text": "8",
+                        "reason": "20 ÷ 4 não é 8"
+                    },
+                    {
+                        "id": 4,
+                        "text": "4",
+                        "reason": "20 ÷ 4 é 4!"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Frações",
+                "question": "1/2 + 1/3",
+                "correct_alternative": 6,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "1/5",
+                        "reason": "1/2 + 1/3 não é 1/5"
+                    },
+                    {
+                        "id": 2,
+                        "text": "2/6",
+                        "reason": "1/2 + 1/3 não é 2/6"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3/5",
+                        "reason": "1/2 + 1/3 não é 3/5"
+                    },
+                    {
+                        "id": 4,
+                        "text": "6/5",
+                        "reason": "1/2 + 1/3 não é 6/5"
+                    },
+                    {
+                        "id": 5,
+                        "text": "5/6",
+                        "reason": "1/2 + 1/3 não é 5/6"
+                    },
+                    {
+                        "id": 6,
+                        "text": "5/6",
+                        "reason": "1/2 + 1/3 é 5/6!"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Multiplicação",
+                "question": "8x7",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "48",
+                        "reason": "8x7 não é 48"
+                    },
+                    {
+                        "id": 2,
+                        "text": "56",
+                        "reason": "8x7 não é 56"
+                    },
+                    {
+                        "id": 3,
+                        "text": "56",
+                        "reason": "8x7 é 56!"
+                    },
+                    {
+                        "id": 4,
+                        "text": "64",
+                        "reason": "8x7 não é 64"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Subtração",
+                "question": "25-9",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "16",
+                        "reason": "25-9 não é 16"
+                    },
+                    {
+                        "id": 2,
+                        "text": "18",
+                        "reason": "25-9 não é 18"
+                    },
+                    {
+                        "id": 3,
+                        "text": "16",
+                        "reason": "25-9 é 16!"
+                    },
+                    {
+                        "id": 4,
+                        "text": "14",
+                        "reason": "25-9 não é 14"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Adição",
+                "question": "17+8",
+                "correct_alternative": 4,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "25",
+                        "reason": "17+8 não é 25"
+                    },
+                    {
+                        "id": 2,
+                        "text": "21",
+                        "reason": "17+8 não é 21"
+                    },
+                    {
+                        "id": 3,
+                        "text": "29",
+                        "reason": "17+8 não é 29"
+                    },
+                    {
+                        "id": 4,
+                        "text": "25",
+                        "reason": "17+8 é 25!"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Divisão",
+                "question": "15 ÷ 5",
+                "correct_alternative": 2,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "2",
+                        "reason": "15 ÷ 5 não é 2"
+                    },
+                    {
+                        "id": 2,
+                        "text": "3",
+                        "reason": "15 ÷ 5 é 3!"
+                    },
+                    {
+                        "id": 3,
+                        "text": "4",
+                        "reason": "15 ÷ 5 não é 4"
+                    },
+                    {
+                        "id": 4,
+                        "text": "5",
+                        "reason": "15 ÷ 5 não é 5"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "title": "Frações",
+                "question": "3/4 + 1/4",
+                "correct_alternative": 4,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "1/2",
+                        "reason": "3/4 + 1/4 não é 1/2"
+                    },
+                    {
+                        "id": 2,
+                        "text": "1",
+                        "reason": "3/4 + 1/4 não é 1"
+                    },
+                    {
+                        "id": 3,
+                        "text": "2/3",
+                        "reason": "3/4 + 1/4 não é 2/3"
+                    },
+                    {
+                        "id": 4,
+                        "text": "1",
+                        "reason": "3/4 + 1/4 é 1!"
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "topic":"Ciência da Natureza",
+        "description":"questoes sobre as ciencias da natureza",
+        "question_list":[
+            {
+                "id": 1,
+                "title": "Estados da Água",
+                "question": "Qual é o estado da água a uma temperatura de 25°C?",
+                "correct_alternative": 2,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Gelo",
+                        "reason": "A água não está no estado de gelo a 25°C"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Líquido",
+                        "reason": "Correto! A água está no estado líquido a 25°C"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Vapor",
+                        "reason": "A água não está no estado de vapor a 25°C"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Cadeia Alimentar",
+                "question": "Qual é o organismo no topo de uma cadeia alimentar?",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Produtores",
+                        "reason": "Os produtores estão na base da cadeia alimentar"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Consumidores primários",
+                        "reason": "Os consumidores primários estão abaixo do topo da cadeia alimentar"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Consumidores quaternários",
+                        "reason": "Correto! Os consumidores quaternários estão no topo da cadeia alimentar"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Forças da natureza",
+                "question": "Qual é a força que mantém os objetos presos à superfície da Terra?",
+                "correct_alternative": 1,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Gravidade",
+                        "reason": "Correto! A gravidade é a força que mantém os objetos presos à superfície da Terra"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Força centrífuga",
+                        "reason": "A força centrífuga não mantém os objetos presos à superfície da Terra"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Atrito",
+                        "reason": "O atrito não é a força principal que mantém os objetos presos à superfície da Terra"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Ciclo da Água",
+                "question": "Qual é o processo pelo qual a água é evaporada das folhas das plantas?",
+                "correct_alternative": 2,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Precipitação",
+                        "reason": "A precipitação não envolve a evaporação da água das folhas das plantas"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Transpiração",
+                        "reason": "Correto! A transpiração é o processo pelo qual a água é evaporada das folhas das plantas"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Infiltração",
+                        "reason": "A infiltração não envolve a evaporação da água das folhas das plantas"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Corpos Celestes",
+                "question": "Qual é o corpo celeste que orbita a Terra?",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Marte",
+                        "reason": "Marte não orbita a Terra"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Lua",
+                        "reason": "Correto! A Lua é o corpo celeste que orbita a Terra"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Sol",
+                        "reason": "O Sol não orbita a Terra"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Reações Químicas",
+                "question": "Qual é o processo pelo qual uma substância perde elétrons?",
+                "correct_alternative": 1,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Oxidação",
+                        "reason": "Correto! A oxidação envolve a perda de elétrons por uma substância"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Redução",
+                        "reason": "A redução envolve o ganho de elétrons por uma substância"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Combustão",
+                        "reason": "A combustão envolve a reação de uma substância com oxigênio"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Ecossistema",
+                "question": "Qual é o termo usado para descrever a interação de todos os seres vivos e elementos não vivos em uma área?",
+                "correct_alternative": 3,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Biosfera",
+                        "reason": "A biosfera é a parte da Terra onde a vida existe"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Hidrosfera",
+                        "reason": "A hidrosfera envolve a água na Terra, não necessariamente a interação de todos os seres vivos e elementos não vivos"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Ecossistema",
+                        "reason": "Correto! Um ecossistema descreve a interação de todos os seres vivos e elementos não vivos em uma área"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Força",
+                "question": "Qual é a grandeza física que descreve a interação entre objetos e pode causar uma mudança de velocidade?",
+                "correct_alternative": 1,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Força",
+                        "reason": "Correto! A força é a grandeza física que descreve a interação entre objetos e pode causar uma mudança de velocidade"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Massa",
+                        "reason": "A massa é a quantidade de matéria em um objeto, não necessariamente descreve a interação entre objetos"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Energia",
+                        "reason": "A energia descreve a capacidade de fazer trabalho, mas não necessariamente causa mudanças de velocidade"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Genética",
+                "question": "Qual é o termo para a troca de informações genéticas entre organismos que resulta em variação?",
+                "correct_alternative": 2,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "Mitose",
+                        "reason": "A mitose é o processo de divisão celular"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Recombinação genética",
+                        "reason": "Correto! A recombinação genética é a troca de informações genéticas entre organismos que resulta em variação"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Fotossíntese",
+                        "reason": "A fotossíntese é o processo pelo qual as plantas produzem seu próprio alimento"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "title": "Ácidos e Bases",
+                "question": "Qual é o pH de uma substância neutra?",
+                "correct_alternative": 2,
+                "alternative_list": [
+                    {
+                        "id": 1,
+                        "text": "1",
+                        "reason": "O pH 1 é altamente ácido, não neutro"
+                    },
+                    {
+                        "id": 2,
+                        "text": "7",
+                        "reason": "Correto! O pH 7 é neutro"
+                    },
+                    {
+                        "id": 3,
+                        "text": "14",
+                        "reason": "O pH 14 é altamente básico, não neutro"
+                    }
+                ]
+            }
+        ]
+    }
+]

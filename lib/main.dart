@@ -1,5 +1,4 @@
 import 'package:fast_trivia/screens/home.dart';
-import 'package:fast_trivia/screens/latest_questionary.dart';
 import 'package:fast_trivia/screens/settings.dart';
 import 'package:flutter/material.dart';
 
@@ -34,7 +33,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   static const List<Widget> _pages = <Widget>[
     Home(),
-    LatestQuestionary(),
     Settings(),
   ];
 
@@ -48,18 +46,18 @@ class _BottomNavBarState extends State<BottomNavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: _pages.elementAt(_selectedIndex),
-      ),
+          child: _pages.elementAt(_selectedIndex),
+        ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.query_stats_outlined),
-            label: 'Latest questionary',
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.query_stats_outlined),
+          //   label: 'Latest questionary',
+          // ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
             label: 'Settings',
