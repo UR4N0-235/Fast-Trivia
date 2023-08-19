@@ -1,6 +1,6 @@
 
-import 'package:fast_trivia/entities/questionary.dart';
-import 'package:fast_trivia/screens/questionary_screen/components/option.dart';
+import 'package:fast_trivia/app/pages/questionary/components/option.dart';
+import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:flutter/material.dart';
 
 class QuestionCard extends StatelessWidget {

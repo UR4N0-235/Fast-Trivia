@@ -1,7 +1,7 @@
 // screen that you need to use to awser or view a questionary
 
-import 'package:fast_trivia/entities/questionary.dart';
-import 'package:fast_trivia/screens/questionary_screen/components/question_card.dart';
+import 'package:fast_trivia/app/pages/questionary/components/question_card.dart';
+import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -32,6 +32,9 @@ class _QuestionaryScreen extends State<QuestionaryScreen> {
         body: SafeArea(
             child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12),
-                child: QuestionCard(question: questionary.questionList[0]))));
+                child: Expanded(
+                    child: PageView.builder(
+                        itemBuilder: (context, index) => QuestionCard(
+                            question: questionary.questionList[0]))))));
   }
 }

@@ -1,4 +1,4 @@
-import 'package:fast_trivia/entities/questionary.dart';
+import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:flutter/material.dart';
 
 class Option extends StatelessWidget {

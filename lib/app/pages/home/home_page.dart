@@ -1,6 +1,6 @@
-import 'package:fast_trivia/entities/questionary.dart';
-import 'package:fast_trivia/screens/questionary_screen/questionary_screen.dart';
-import 'package:fast_trivia/util/http_request_mocked.dart';
+import 'package:fast_trivia/app/models/questionary_model.dart';
+import 'package:fast_trivia/app/pages/questionary/questionary_page.dart';
+import 'package:fast_trivia/app/utils/http_request_mocked.dart';
 import 'package:flutter/material.dart';
 
 // screen that show history and you can select an questionary to do.

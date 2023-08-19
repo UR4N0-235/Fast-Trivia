@@ -1,1 +1,0 @@
-// screen that show a questionary results.
