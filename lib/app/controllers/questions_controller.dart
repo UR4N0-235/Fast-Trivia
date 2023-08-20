@@ -44,14 +44,6 @@ class QuestionaryController extends GetxController {
       _actualQuestionary = _questionaries[index];
   changeSelectedAswerId(int index) => _selectedAlternativeId.value = index;
 
-  void checkAns(int selectedIndex) {
-    int correctAns = actualQuestionary
-        .questionList[_actualQuestion.value].correctAlternative;
-    int selectedAns = selectedIndex;
-
-    if (correctAns == selectedAns) _numOfCorrectAns++;
-  }
-
   void nextQuestion() {
     _responses[_actualQuestion.value + 1] = _selectedAlternativeId.value;
     _selectedAlternativeId.value = 0;
@@ -74,6 +66,7 @@ class QuestionaryController extends GetxController {
   reset() {
     _selectedAlternativeId.value = 0;
     _actualQuestion.value = 0;
+    _numOfCorrectAns = 0;
   }
 
   QuestionList getActualQuestion() {
@@ -99,12 +92,34 @@ class QuestionaryController extends GetxController {
       serializableMap[key.toString()] = value;
     });
     String responsesToJson = json.encode(serializableMap);
-    await DatabaseHelper.instance
-        .insertResponse(_actualQuestionary!.id, responsesToJson);
+    await DatabaseHelper.instance.insertResponse(
+        _actualQuestionary!.id, _numOfCorrectAns, responsesToJson);
   }
 
   Future getResponsesFromDataBase() async {
     String json = await DatabaseHelper.instance.getAllResponsesAsJson();
     _responsesList = responseFromJson(json);
+  }
+
+  bool isAlradyResponded(int index) {
+    int realValueOfId = index + 1;
+    if (_responsesList != null) {
+      for (int i = 0; i < _responsesList!.length; i++) {
+        print('${_responsesList![i].questionaryId} == $realValueOfId ?');
+        if (_responsesList![i].questionaryId == realValueOfId) return true;
+      }
+    }
+    return false;
+  }
+
+  QuestionaryResponse? getLatestRespondedQuestionary(int index) {
+    if (!isAlradyResponded(index)) return null;
+    int realValueOfId = index + 1;
+    QuestionaryResponse? result;
+    
+    for (int i = 0; i < _responsesList!.length; i++) {
+      if (_responsesList![i].questionaryId == realValueOfId) result = _responsesList![i];
+    }
+    return result;
   }
 }

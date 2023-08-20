@@ -13,21 +13,22 @@ String responseToJson(List<QuestionaryResponse> data) =>
 
 class QuestionaryResponse {
   int questionaryId;
+  int correctQuantity;
   DateTime? timestamp;
   Map<String, dynamic> answers;
 
   QuestionaryResponse({
     required this.questionaryId,
-    timestamp,
+    required this.timestamp,
+    required this.correctQuantity,
     required this.answers,
   });
 
   factory QuestionaryResponse.fromJson(Map<String, dynamic> json) {
     return QuestionaryResponse(
       questionaryId: json["questionary_id"],
-      timestamp: json.containsKey("timestamp")
-          ? DateTime.parse(json["timestamp"])
-          : null,
+      correctQuantity: json["correct_quantity"],
+      timestamp: DateTime.parse(json["timestamp"]),
       answers: jsonDecode(json["answers"]),
     );
   }
@@ -35,6 +36,7 @@ class QuestionaryResponse {
   Map<String, dynamic> toJson() => {
         "questionary_id": questionaryId,
         "timestamp": timestamp,
+        "correct_quantity": correctQuantity,
         "answers":
             Map.from(answers).map((k, v) => MapEntry<String, dynamic>(k, v)),
       };

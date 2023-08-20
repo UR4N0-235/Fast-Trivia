@@ -39,7 +39,7 @@ dependencies:
   sqflite: ^2.3.0
   path_provider: ^2.1.0
   path: any
-
+  intl: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -12,24 +12,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePage extends State<HomePage> {
-  // late List<Questionary> questionaryList;
-
-  @override
-  void initState() {
-    // questionaryList = [];
-    // HttpRequestMocked.loadJsonData().then((value) {
-    //   setState(() {
-    //     questionaryList = questionaryFromJson(value);
-    //   });
-    // });
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
     QuestionaryController questionaryController =
         Get.put(QuestionaryController());
-        questionaryController.getResponsesFromDataBase();
+    questionaryController.getResponsesFromDataBase();
     return Scaffold(
       body: Center(child: Obx(() {
         return questionaryController.questionaries.isEmpty
@@ -40,8 +27,20 @@ class _HomePage extends State<HomePage> {
                   return Column(
                     children: [
                       ListTile(
-                        title: Text(
-                            questionaryController.questionaries[index].topic),
+                        title: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(questionaryController
+                                  .questionaries[index].topic),
+                              Text((questionaryController
+                                      .isAlradyResponded(index))
+                                  ? "${questionaryController.getLatestRespondedQuestionary(index)!.correctQuantity}/10"
+                                  : ""),
+                            ]),
+                        tileColor:
+                            (questionaryController.isAlradyResponded(index))
+                                ? Colors.green
+                                : Colors.transparent,
                         onTap: () {
                           questionaryController.changeActualQuestionary(index);
                           Navigator.push(

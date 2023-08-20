@@ -12,15 +12,15 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPage extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        Row(
-          children: [
-            Text("Use dark theme? "),
-            SwitchThemeWidget()
-          ]
-        )
-      ],
-    );
+    return Scaffold(
+        appBar: AppBar(),
+        body: const Padding(
+          padding: EdgeInsets.all(12.0),
+          child: Column(
+            children: [
+              Row(children: [Text("Use dark theme? "), SwitchThemeWidget()]),
+            ],
+          ),
+        ));
   }
 }

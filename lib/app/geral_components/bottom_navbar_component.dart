@@ -1,4 +1,5 @@
 
+import 'package:fast_trivia/app/pages/history/history_page.dart';
 import 'package:fast_trivia/app/pages/home/home_page.dart';
 import 'package:fast_trivia/app/pages/settings/settings_page.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +16,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   static const List<Widget> _pages = <Widget>[
     HomePage(),
+    HistoryPage(),
     SettingsPage(),
   ];
 
@@ -36,10 +38,10 @@ class _BottomNavBarState extends State<BottomNavBar> {
             icon: Icon(Icons.home),
             label: 'Home',
           ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.query_stats_outlined),
-          //   label: 'Latest questionary',
-          // ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.query_stats_outlined),
+            label: 'History',
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
             label: 'Settings',
