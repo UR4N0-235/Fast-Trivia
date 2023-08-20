@@ -1,6 +1,7 @@
 import 'package:fast_trivia/app/controllers/app_controller.dart';
 import 'package:fast_trivia/app/geral_components/bottom_navbar_component.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -10,7 +11,7 @@ class AppWidget extends StatelessWidget {
     return ValueListenableBuilder<bool>(
       valueListenable: AppController.instance.themeSwitch,
       builder: (context, isDark, child) {
-        return MaterialApp(
+        return GetMaterialApp(
           title: 'Fast Trivia',
           theme: ThemeData(
               useMaterial3: true,

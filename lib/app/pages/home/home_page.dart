@@ -1,56 +1,61 @@
-import 'package:fast_trivia/app/models/questionary_model.dart';
+import 'package:fast_trivia/app/controllers/questions_controller.dart';
 import 'package:fast_trivia/app/pages/questionary/questionary_page.dart';
-import 'package:fast_trivia/app/utils/http_request_mocked.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 // screen that show history and you can select an questionary to do.
-class Home extends StatefulWidget {
-  const Home({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<StatefulWidget> createState() => _Home();
+  State<StatefulWidget> createState() => _HomePage();
 }
 
-class _Home extends State<Home> {
-  late List<Questionary> questionaryList;
+class _HomePage extends State<HomePage> {
+  // late List<Questionary> questionaryList;
 
   @override
   void initState() {
-    questionaryList = [];
-    HttpRequestMocked.loadJsonData().then((value) {
-      setState(() {
-        questionaryList = questionaryFromJson(value);
-      });
-    });
+    // questionaryList = [];
+    // HttpRequestMocked.loadJsonData().then((value) {
+    //   setState(() {
+    //     questionaryList = questionaryFromJson(value);
+    //   });
+    // });
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
+    QuestionaryController questionaryController =
+        Get.put(QuestionaryController());
     return Scaffold(
-      body: Center(
-          child: questionaryList.isEmpty
-              ? const CircularProgressIndicator()
-              : ListView.builder(
-                  itemCount: questionaryList.length,
-                  itemBuilder: (context, index) {
-                    return Column(
-                      children: [
-                        ListTile(
-                          title: Text(questionaryList[index].topic),
-                          onTap: () {
-                            Navigator.push(
+      body: Center(child: Obx(() {
+        return questionaryController.questionaries.isEmpty
+            ? const CircularProgressIndicator()
+            : ListView.builder(
+                itemCount: questionaryController.questionaries.length,
+                itemBuilder: (context, index) {
+                  return Column(
+                    children: [
+                      ListTile(
+                        title: Text(
+                            questionaryController.questionaries[index].topic),
+                        onTap: () {
+                          questionaryController.changeActualQuestionary(index);
+                          Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => QuestionaryScreen(
-                                    questionary: questionaryList[index]),
-                              ),
-                            );
-                          },
-                        ),
-                      ],
-                    );
-                  })),
+                                builder: (context) => QuestionaryPage(
+                                    questionary: questionaryController
+                                        .actualQuestionary),
+                              ));
+                        },
+                      ),
+                    ],
+                  );
+                });
+      })),
     );
   }
 }

@@ -14,8 +14,8 @@ class _BottomNavBarState extends State<BottomNavBar> {
   int _selectedIndex = 0;
 
   static const List<Widget> _pages = <Widget>[
-    Home(),
-    Settings(),
+    HomePage(),
+    SettingsPage(),
   ];
 
   void _onItemTapped(int index) {
