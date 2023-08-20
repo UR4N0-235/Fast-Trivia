@@ -29,6 +29,7 @@ class _HomePage extends State<HomePage> {
   Widget build(BuildContext context) {
     QuestionaryController questionaryController =
         Get.put(QuestionaryController());
+        questionaryController.getResponsesFromDataBase();
     return Scaffold(
       body: Center(child: Obx(() {
         return questionaryController.questionaries.isEmpty

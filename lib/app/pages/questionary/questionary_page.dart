@@ -40,7 +40,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
                             question:
                                 questionaryController.getActualQuestion()),
                         ElevatedButton(
-                            onPressed: () {
+                            onPressed: () async {
                               // if (questionaryController.selectedAlternativeId !=
                               //     0) {
                               questionaryController.nextQuestion();

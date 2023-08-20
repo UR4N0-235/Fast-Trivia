@@ -9,23 +9,27 @@ List<Questionary> questionaryFromJson(String str) => List<Questionary>.from(json
 String questionaryToJson(List<Questionary> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class Questionary {
+    int id;
     String topic;
     String description;
     List<QuestionList> questionList;
 
     Questionary({
+        required this.id,
         required this.topic,
         required this.description,
         required this.questionList,
     });
 
     factory Questionary.fromJson(Map<String, dynamic> json) => Questionary(
+        id: json["id"],
         topic: json["topic"],
         description: json["description"],
         questionList: List<QuestionList>.from(json["question_list"].map((x) => QuestionList.fromJson(x))),
     );
 
     Map<String, dynamic> toJson() => {
+        "id": id,
         "topic": topic,
         "description": description,
         "question_list": List<dynamic>.from(questionList.map((x) => x.toJson())),

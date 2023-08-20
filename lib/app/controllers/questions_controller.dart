@@ -1,6 +1,10 @@
+import 'dart:convert';
+
 import 'package:fast_trivia/app/models/questionary_model.dart';
+import 'package:fast_trivia/app/models/questionary_responses_model.dart';
 import 'package:fast_trivia/app/pages/score/score_page.dart';
 import 'package:fast_trivia/app/utils/http_request_mocked.dart';
+import 'package:fast_trivia/db/database_helper.dart';
 import 'package:get/get.dart';
 
 class QuestionaryController extends GetxController {
@@ -21,6 +25,12 @@ class QuestionaryController extends GetxController {
 
   int _numOfCorrectAns = 0;
   int get numOfCorrectAns => _numOfCorrectAns;
+
+  final List<bool> _alternativeCorrection = [];
+  List<bool> get alternativeCorrection => _alternativeCorrection;
+
+  List<QuestionaryResponse>? _responsesList;
+  List<QuestionaryResponse> get responsesList => _responsesList!;
 
   @override
   void onInit() {
@@ -46,14 +56,14 @@ class QuestionaryController extends GetxController {
     _responses[_actualQuestion.value + 1] = _selectedAlternativeId.value;
     _selectedAlternativeId.value = 0;
 
-    if(isLatesteQuestion()){
+    if (isLatesteQuestion()) {
       checkAllAswers();
-      Get.to(()=> const ScorePage());
+      Get.to(() => const ScorePage());
       update();
     }
   }
 
-  updateQuestionNumber(){
+  updateQuestionNumber() {
     _actualQuestion.value++;
   }
 
@@ -68,16 +78,33 @@ class QuestionaryController extends GetxController {
 
   QuestionList getActualQuestion() {
     return _actualQuestionary!.questionList[_actualQuestion.value];
-    // if(!isLatesteQuestion()) return _actualQuestionary!.questionList[_actualQuestion.value];
-    // return _actualQuestionary!.questionList[0];
   }
 
   checkAllAswers() {
     for (int i = 0; i < _responses.length; i++) {
       if (_responses[i + 1] ==
           actualQuestionary.questionList[i].correctAlternative.toInt()) {
+        _alternativeCorrection.add(true);
         _numOfCorrectAns++;
+      } else {
+        _alternativeCorrection.add(false);
       }
     }
+    saveResponses();
+  }
+
+  saveResponses() async {
+    Map<String, dynamic> serializableMap = {};
+    _responses.forEach((key, value) {
+      serializableMap[key.toString()] = value;
+    });
+    String responsesToJson = json.encode(serializableMap);
+    await DatabaseHelper.instance
+        .insertResponse(_actualQuestionary!.id, responsesToJson);
+  }
+
+  Future getResponsesFromDataBase() async {
+    String json = await DatabaseHelper.instance.getAllResponsesAsJson();
+    _responsesList = responseFromJson(json);
   }
 }
