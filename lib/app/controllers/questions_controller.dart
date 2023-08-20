@@ -13,26 +13,15 @@ class QuestionaryController extends GetxController {
   final RxInt _actualQuestion = 0.obs;
   int get actualQuestion => _actualQuestion.value;
 
-  // bool _isAnswered = false;
-  // bool get isAnswered => _isAnswered;
-
-  // int _correctAns;
-  // int get correctAns => _correctAns;
-
   final RxInt _selectedAlternativeId = 0.obs;
   int get selectedAlternativeId => _selectedAlternativeId.value;
 
   final Map<int, int> _responses = <int, int>{};
   Map<int, int> get responses => _responses;
 
-  // // for more about obs please check documentation
-  // final RxInt _questionNumber = 1.obs;
-  // RxInt get questionNumber => _questionNumber;
-
   int _numOfCorrectAns = 0;
   int get numOfCorrectAns => _numOfCorrectAns;
 
-  // called immediately after the widget is allocated memory
   @override
   void onInit() {
     HttpRequestMocked.loadJsonData().then((value) {
@@ -41,16 +30,9 @@ class QuestionaryController extends GetxController {
     super.onInit();
   }
 
-  // // // called just before the Controller is deleted from memory
-  // @override
-  // void onClose() {
-  //   super.onClose();
-  // }
-
-  changeActualQuestionary(int questionaryIndex) =>
-      _actualQuestionary = _questionaries[questionaryIndex];
-  changeSelectedAswerId(int id) => _selectedAlternativeId.value = id;
-  changeActualQuestion(int index) => _actualQuestion.value = index;
+  changeActualQuestionary(int index) =>
+      _actualQuestionary = _questionaries[index];
+  changeSelectedAswerId(int index) => _selectedAlternativeId.value = index;
 
   void checkAns(int selectedIndex) {
     int correctAns = actualQuestionary
@@ -61,27 +43,41 @@ class QuestionaryController extends GetxController {
   }
 
   void nextQuestion() {
-    if (_actualQuestion.value + 1 != actualQuestionary.questionList.length) {
-      _responses[_actualQuestionary!.questionList[actualQuestion].id] =
-          selectedAlternativeId;
-      _actualQuestion.value++;
-      _selectedAlternativeId.value = 0;
+    _responses[_actualQuestion.value + 1] = _selectedAlternativeId.value;
+    _selectedAlternativeId.value = 0;
+
+    if(isLatesteQuestion()){
+      checkAllAswers();
+      Get.to(()=> const ScorePage());
       update();
-    } else {
-      Get.to(() => const ScorePage());
     }
   }
 
-  bool isLatesteQuestion(){
-    return _actualQuestion.value + 1 == actualQuestionary.questionList.length;
+  updateQuestionNumber(){
+    _actualQuestion.value++;
+  }
+
+  bool isLatesteQuestion() {
+    return _actualQuestion.value == actualQuestionary.questionList.length - 1;
   }
 
   reset() {
-    changeSelectedAswerId(0);
-    changeActualQuestion(0);
+    _selectedAlternativeId.value = 0;
+    _actualQuestion.value = 0;
   }
 
-  // void updateTheQnNum(int index) {
-  //   _questionNumber.value = index + 1;
-  // }
+  QuestionList getActualQuestion() {
+    return _actualQuestionary!.questionList[_actualQuestion.value];
+    // if(!isLatesteQuestion()) return _actualQuestionary!.questionList[_actualQuestion.value];
+    // return _actualQuestionary!.questionList[0];
+  }
+
+  checkAllAswers() {
+    for (int i = 0; i < _responses.length; i++) {
+      if (_responses[i + 1] ==
+          actualQuestionary.questionList[i].correctAlternative.toInt()) {
+        _numOfCorrectAns++;
+      }
+    }
+  }
 }

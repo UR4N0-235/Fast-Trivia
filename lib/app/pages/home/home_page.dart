@@ -46,9 +46,7 @@ class _HomePage extends State<HomePage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => QuestionaryPage(
-                                    questionary: questionaryController
-                                        .actualQuestionary),
+                                builder: (context) => const QuestionaryPage(),
                               ));
                         },
                       ),

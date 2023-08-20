@@ -1,26 +1,20 @@
 // screen that you need to use to awser or view a questionary
 
 import 'package:fast_trivia/app/controllers/questions_controller.dart';
-import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:fast_trivia/app/pages/questionary/components/question_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class QuestionaryPage extends StatefulWidget {
-  final Questionary questionary;
-
-  const QuestionaryPage({super.key, required this.questionary});
+  const QuestionaryPage({super.key});
 
   @override
   State<StatefulWidget> createState() => _QuestionaryPage();
 }
 
 class _QuestionaryPage extends State<QuestionaryPage> {
-  late Questionary questionary;
-
   @override
   void initState() {
-    questionary = widget.questionary;
     super.initState();
   }
 
@@ -35,7 +29,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
         },
         child: Scaffold(
             appBar: AppBar(
-              title: Text(questionary.topic),
+              title: Text(questionaryController.actualQuestionary.topic),
             ),
             body: Obx(
               () => SafeArea(
@@ -43,18 +37,22 @@ class _QuestionaryPage extends State<QuestionaryPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 12),
                       child: Column(children: [
                         QuestionCard(
-                            question: questionary.questionList[
-                                questionaryController.actualQuestion]),
+                            question:
+                                questionaryController.getActualQuestion()),
                         ElevatedButton(
                             onPressed: () {
                               // if (questionaryController.selectedAlternativeId !=
                               //     0) {
-                                questionaryController.nextQuestion();
+                              questionaryController.nextQuestion();
+                              if(!questionaryController.isLatesteQuestion()) questionaryController.updateQuestionNumber();
                               // }else{
                               //     Get.snackbar("Aviso", "Por favor, selecione uma questao!", snackPosition: SnackPosition.BOTTOM, );
                               // }
                             },
-                            child: Text(questionaryController.isLatesteQuestion() ? "Enviar" :"proximo"))
+                            child: Text(
+                                questionaryController.isLatesteQuestion()
+                                    ? "Enviar"
+                                    : "proximo"))
                       ]))),
             )));
   }

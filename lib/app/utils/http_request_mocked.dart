@@ -12,6 +12,6 @@ class HttpRequestMocked {
   // }
 
   static loadJsonData() async{
-    return await rootBundle.loadString('assets/questions/questions.json');              
+    return await rootBundle.loadString('assets/questionaries/all_questionaries.json');              
   }
 }

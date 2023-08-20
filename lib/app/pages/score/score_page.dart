@@ -12,7 +12,7 @@ class ScorePage extends StatelessWidget {
     QuestionaryController questionaryController = Get.put(QuestionaryController());
     return WillPopScope(child: Scaffold(
       appBar: AppBar(title: const Text("score page")),
-      body: const Text("opa"),
+      body: Text("opa, voce acertou ${questionaryController.numOfCorrectAns}/10"),
     ), onWillPop: () async {
       questionaryController.reset();
       Get.offAll(() => const BottomNavBar()) ;
