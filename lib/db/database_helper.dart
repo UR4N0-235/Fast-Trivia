@@ -60,14 +60,14 @@ class DatabaseHelper {
     });
   }
 
-  Future<int> insertResponse(int questionaryId, int correctQuantity, String answers) async {
+  Future<int> insertResponse(
+      int questionaryId, int correctQuantity, String answers) async {
     final db = await instance.database;
-    return await db.insert('questionary_response', {'questionary_id': questionaryId, 'answers': answers, 'correct_quantity': correctQuantity});
-    // return await db
-    //     .rawInsert('''INSERT INTO questionary_response(questionary_id, answers)
-    //                   VALUES($questionaryId, $answers )
-    // ''');
-    //    return await db.insert('questionary_response', row);
+    return await db.insert('questionary_response', {
+      'questionary_id': questionaryId,
+      'answers': answers,
+      'correct_quantity': correctQuantity
+    });
   }
 
   Future<String> getAllResponsesAsJson() async {
@@ -77,7 +77,12 @@ class DatabaseHelper {
     final List<Map<String, dynamic>> responseList = List.from(results);
 
     final jsonList = jsonEncode(responseList);
-    
+
     return jsonList;
+  }
+
+  clearData() async{
+    final db = await instance.database;
+    await db.delete('questionary_response');
   }
 }

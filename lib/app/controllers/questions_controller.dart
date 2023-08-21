@@ -105,7 +105,6 @@ class QuestionaryController extends GetxController {
     int realValueOfId = index + 1;
     if (_responsesList != null) {
       for (int i = 0; i < _responsesList!.length; i++) {
-        print('${_responsesList![i].questionaryId} == $realValueOfId ?');
         if (_responsesList![i].questionaryId == realValueOfId) return true;
       }
     }

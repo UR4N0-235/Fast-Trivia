@@ -12,6 +12,7 @@ class ScorePage extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionaryController questionaryController =
         Get.put(QuestionaryController());
+        questionaryController.getResponsesFromDataBase();
     return WillPopScope(
         child: Scaffold(
           appBar: AppBar(title: const Text("score page")),

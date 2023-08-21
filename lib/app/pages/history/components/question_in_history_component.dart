@@ -1,5 +1,5 @@
-import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:fast_trivia/app/geral_components/correction/components/option_correction.dart';
+import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:flutter/material.dart';
 
 // screen that show history and you can select an questionary to do.
@@ -46,7 +46,7 @@ class HistoryScoreQuestion extends StatelessWidget {
                         question.alternativeList.length,
                         (index) => OptionCorrection(
                             alternative: question.alternativeList[index],
-                            selectedAlternativeId: selectedAlternativeId!,
+                            selectedAlternativeId: selectedAlternativeId,
                             correctAlternativeId: question.correctAlternative,
                             ))
                   ],

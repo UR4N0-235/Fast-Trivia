@@ -1,7 +1,6 @@
 import 'package:fast_trivia/app/controllers/questions_controller.dart';
 import 'package:fast_trivia/app/models/questionary_model.dart';
 import 'package:fast_trivia/app/pages/history/components/score_history_component.dart';
-import 'package:fast_trivia/app/pages/score/score_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
