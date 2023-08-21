@@ -35,7 +35,8 @@ class _QuestionaryPage extends State<QuestionaryPage> {
               () => SafeArea(
                   child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 12),
-                      child: Column(children: [
+                      child: Flexible(
+                          child: Column(children: [
                         QuestionCard(
                             question:
                                 questionaryController.getActualQuestion()),
@@ -60,7 +61,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
                                 questionaryController.isLatesteQuestion()
                                     ? "Enviar"
                                     : "proximo"))
-                      ]))),
+                      ])))),
             )));
   }
 }

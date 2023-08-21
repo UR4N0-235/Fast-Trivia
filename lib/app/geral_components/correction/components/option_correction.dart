@@ -15,7 +15,7 @@ class OptionCorrection extends StatelessWidget {
   Widget build(BuildContext context) {
         Color containerColor = Colors.transparent;
         if(selectedAlternativeId == alternative.id && selectedAlternativeId != correctAlternativeId) containerColor = Colors.red;
-        if(selectedAlternativeId != alternative.id && alternative.id == correctAlternativeId) containerColor = Colors.green;
+        if(alternative.id == correctAlternativeId) containerColor = Colors.green;
         
         return Container(
           margin: const EdgeInsets.only(top: 12),
@@ -30,10 +30,10 @@ class OptionCorrection extends StatelessWidget {
             Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
+                  Flexible(child: Text(
                     alternative.text,
                     style: const TextStyle(color: Colors.black87, fontSize: 16),
-                  ),
+                  )),
                   Container(
                     height: 26,
                     width: 26,
