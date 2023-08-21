@@ -40,6 +40,8 @@ dependencies:
   path_provider: ^2.1.0
   path: any
   intl: any
+  url_launcher: ^6.0.10
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

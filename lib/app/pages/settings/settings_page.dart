@@ -1,5 +1,6 @@
 // that is "firula" just to change app language
 import 'package:fast_trivia/app/controllers/questions_controller.dart';
+import 'package:fast_trivia/app/pages/settings/components/credit_widget.dart';
 import 'package:fast_trivia/app/pages/settings/components/switch_theme.dart';
 import 'package:fast_trivia/db/database_helper.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,8 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPage extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
-    QuestionaryController questionaryController = Get.put(QuestionaryController());
+    QuestionaryController questionaryController =
+        Get.put(QuestionaryController());
     return Scaffold(
         appBar: AppBar(),
         body: Padding(
@@ -23,7 +25,7 @@ class _SettingsPage extends State<SettingsPage> {
           child: Column(
             children: [
               const Row(
-                  children: [Text("Use dark theme? "), SwitchThemeWidget()]),
+                  children: [Text("Usar thema escuro? "), SwitchThemeWidget()]),
               Row(
                 children: [
                   ElevatedButton(
@@ -33,7 +35,10 @@ class _SettingsPage extends State<SettingsPage> {
                       },
                       child: const Text("Limpar dados"))
                 ],
-              )
+              ),
+              const Divider(thickness: 1.5,),
+              Spacer(),
+              CreditsWidget()
             ],
           ),
         ));
