@@ -1,6 +1,6 @@
 import 'package:fast_trivia/app/controllers/questions_controller.dart';
 import 'package:fast_trivia/app/geral_components/bottom_navbar_component.dart';
-import 'package:fast_trivia/app/pages/correction/correction_page.dart';
+import 'package:fast_trivia/app/geral_components/correction/correction_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,13 +1,13 @@
 import 'package:fast_trivia/app/models/questionary_model.dart';
-import 'package:fast_trivia/app/pages/correction/components/option_correction.dart';
+import 'package:fast_trivia/app/geral_components/correction/components/option_correction.dart';
 import 'package:flutter/material.dart';
 
 // screen that show history and you can select an questionary to do.
-class CorrectionPage extends StatelessWidget {
-  const CorrectionPage(
+class HistoryScoreQuestion extends StatelessWidget {
+  const HistoryScoreQuestion(
       {super.key, required this.question, required this.selectedAlternativeId});
   final QuestionList question;
-  final int? selectedAlternativeId;
+  final int selectedAlternativeId;
 
   @override
   Widget build(BuildContext context) {

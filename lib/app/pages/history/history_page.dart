@@ -1,5 +1,6 @@
 import 'package:fast_trivia/app/controllers/questions_controller.dart';
 import 'package:fast_trivia/app/models/questionary_model.dart';
+import 'package:fast_trivia/app/pages/history/components/score_history_component.dart';
 import 'package:fast_trivia/app/pages/score/score_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,12 +16,11 @@ class HistoryPage extends StatelessWidget {
     return Scaffold(
         body: Center(
       child: ListView.builder(
-          reverse: true,
           itemCount: questionaryController.responsesList.length,
           itemBuilder: (context, index) {
+            index = questionaryController.responsesList.length - index -1;
             Questionary actualQuestionary = questionaryController.questionaries[
                 questionaryController.responsesList[index].questionaryId - 1];
-                print(questionaryController.responsesList[index].timestamp);
             return Column(
               children: [
                 ListTile(
@@ -34,11 +34,13 @@ class HistoryPage extends StatelessWidget {
                   subtitle: Text(DateFormat('dd/MM/yyyy - HH:mm').format(
                       questionaryController.responsesList[index].timestamp!)),
                   onTap: () {
-                    questionaryController.changeActualQuestionary(index);
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const ScorePage(),
+                          builder: (context) => HistoryScore(
+                            actualQuestionaryResponse:
+                                questionaryController.responsesList[index],
+                          ),
                         ));
                   },
                 ),
