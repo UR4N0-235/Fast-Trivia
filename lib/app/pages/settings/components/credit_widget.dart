@@ -4,8 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 class CreditsWidget extends StatelessWidget {
   const CreditsWidget({super.key});
 
-  _launchURL(Uri url) async {
-    if (!await launchUrl(url, mode: LaunchMode.platformDefault)) {
+  Future<void> _launchURL(Uri url) async {
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'Não foi possível abrir o URL: $url';
     }
   }
