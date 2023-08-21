@@ -1,527 +1,2872 @@
 [
     {
-        "id": 1,
-        "topic": "matematica",
-        "description":"questoes simples de matematica",
-        "question_list":[
-            {
-                "id": 1,
-                "title": "Adição",
-                "question": "3+5",
-                "correct_alternative": 4,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "2",
-                        "reason": "3+5 não é 2"
-                    },
-                    {
-                        "id": 2,
-                        "text": "12",
-                        "reason": "3+5 não é 12"
-                    },
-                    {
-                        "id": 3,
-                        "text": "7",
-                        "reason": "3+5 não é 7!"
-                    },
-                    {
-                        "id": 4,
-                        "text": "8",
-                        "reason": "3+5 é 8"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Subtração",
-                "question": "10-4",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "2",
-                        "reason": "10-4 não é 2"
-                    },
-                    {
-                        "id": 2,
-                        "text": "14",
-                        "reason": "10-4 não é 14"
-                    },
-                    {
-                        "id": 3,
-                        "text": "6",
-                        "reason": "10-4 é 6!"
-                    },
-                    {
-                        "id": 4,
-                        "text": "8",
-                        "reason": "10-4 não é 8"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Multiplicação",
-                "question": "6x3",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "9",
-                        "reason": "6x3 não é 9"
-                    },
-                    {
-                        "id": 2,
-                        "text": "12",
-                        "reason": "6x3 não é 12"
-                    },
-                    {
-                        "id": 3,
-                        "text": "18",
-                        "reason": "6x3 é 18!"
-                    },
-                    {
-                        "id": 4,
-                        "text": "21",
-                        "reason": "6x3 não é 21"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Divisão",
-                "question": "20 ÷ 4",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "2",
-                        "reason": "20 ÷ 4 não é 2"
-                    },
-                    {
-                        "id": 2,
-                        "text": "5",
-                        "reason": "20 ÷ 4 é 5"
-                    },
-                    {
-                        "id": 3,
-                        "text": "8",
-                        "reason": "20 ÷ 4 não é 8"
-                    },
-                    {
-                        "id": 4,
-                        "text": "4",
-                        "reason": "20 ÷ 4 não é 4!"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Frações",
-                "question": "1/2 + 1/4",
-                "correct_alternative": 1,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "3/4",
-                        "reason": "1/2 + 1/3 é 3/4"
-                    },
-                    {
-                        "id": 2,
-                        "text": "2/6",
-                        "reason": "1/2 + 1/3 não é 2/6"
-                    },
-                    {
-                        "id": 3,
-                        "text": "3/5",
-                        "reason": "1/2 + 1/3 não é 3/5"
-                    },
-                    {
-                        "id": 4,
-                        "text": "6/5",
-                        "reason": "1/2 + 1/3 não é 6/5"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Multiplicação",
-                "question": "8x7",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "48",
-                        "reason": "8x7 não é 48"
-                    },
-                    {
-                        "id": 2,
-                        "text": "69",
-                        "reason": "8x7 não é 56"
-                    },
-                    {
-                        "id": 3,
-                        "text": "56",
-                        "reason": "8x7 é 56!"
-                    },
-                    {
-                        "id": 4,
-                        "text": "64",
-                        "reason": "8x7 não é 64"
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "title": "Subtração",
-                "question": "25-9",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "15",
-                        "reason": "25-9 não é 15"
-                    },
-                    {
-                        "id": 2,
-                        "text": "18",
-                        "reason": "25-9 não é 18"
-                    },
-                    {
-                        "id": 3,
-                        "text": "16",
-                        "reason": "25-9 é 16!"
-                    },
-                    {
-                        "id": 4,
-                        "text": "14",
-                        "reason": "25-9 não é 14"
-                    }
-                ]
-            },
-            {
-                "id": 8,
-                "title": "Adição",
-                "question": "17+8",
-                "correct_alternative": 4,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "26",
-                        "reason": "17+8 não é 26"
-                    },
-                    {
-                        "id": 2,
-                        "text": "21",
-                        "reason": "17+8 não é 21"
-                    },
-                    {
-                        "id": 3,
-                        "text": "29",
-                        "reason": "17+8 não é 29"
-                    },
-                    {
-                        "id": 4,
-                        "text": "25",
-                        "reason": "17+8 é 25!"
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "title": "Divisão",
-                "question": "15 ÷ 5",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "2",
-                        "reason": "15 ÷ 5 não é 2"
-                    },
-                    {
-                        "id": 2,
-                        "text": "3",
-                        "reason": "15 ÷ 5 é 3!"
-                    },
-                    {
-                        "id": 3,
-                        "text": "4",
-                        "reason": "15 ÷ 5 não é 4"
-                    },
-                    {
-                        "id": 4,
-                        "text": "5",
-                        "reason": "15 ÷ 5 não é 5"
-                    }
-                ]
-            },
-            {
-                "id": 10,
-                "title": "Frações",
-                "question": "3/4 + 1/4",
-                "correct_alternative": 4,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "1/2",
-                        "reason": "3/4 + 1/4 não é 1/2"
-                    },
-                    {
-                        "id": 2,
-                        "text": "1",
-                        "reason": "3/4 + 1/4 não é 1"
-                    },
-                    {
-                        "id": 3,
-                        "text": "2/3",
-                        "reason": "3/4 + 1/4 não é 2/3"
-                    },
-                    {
-                        "id": 4,
-                        "text": "1",
-                        "reason": "3/4 + 1/4 é 1!"
-                    }
-                ]
-            }
-        ]
-    }
-    ,
+       "id":1,
+       "topic":"matematica",
+       "description":"questoes simples de matematica",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Adição",
+             "question":"3+5",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"2",
+                   "reason":"3+5 não é é 2"
+                },
+                {
+                   "id":2,
+                   "text":"12",
+                   "reason":"3+5 não é 12"
+                },
+                {
+                   "id":3,
+                   "text":"7",
+                   "reason":"3+5 não é 7!"
+                },
+                {
+                   "id":4,
+                   "text":"8",
+                   "reason":"3+5 é 8"
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Subtração",
+             "question":"10-4",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"2",
+                   "reason":"10-4 não é 2..."
+                },
+                {
+                   "id":2,
+                   "text":"14",
+                   "reason":"10-4 não é 14..."
+                },
+                {
+                   "id":3,
+                   "text":"6",
+                   "reason":"Parabéns, a questão esta correta. 10-4 realmente é 6!"
+                },
+                {
+                   "id":4,
+                   "text":"8",
+                   "reason":"10-4 não é 8..."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Multiplicação",
+             "question":"6x3",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"9",
+                   "reason":"6x3 não é 9"
+                },
+                {
+                   "id":2,
+                   "text":"12",
+                   "reason":"6x3 não é 12"
+                },
+                {
+                   "id":3,
+                   "text":"18",
+                   "reason":"Parabéns, a questão esta correta. 6x3 é 18!"
+                },
+                {
+                   "id":4,
+                   "text":"21",
+                   "reason":"6x3 não é 21"
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Divisão",
+             "question":"20 ÷ 4",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"2",
+                   "reason":"20 ÷ 4 não é 2"
+                },
+                {
+                   "id":2,
+                   "text":"5",
+                   "reason":"Parabéns, a questão esta correta. 20 ÷ 4 é 5!"
+                },
+                {
+                   "id":3,
+                   "text":"8",
+                   "reason":"20 ÷ 4 não é 8"
+                },
+                {
+                   "id":4,
+                   "text":"4",
+                   "reason":"20 ÷ 4 não é 4"
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Frações",
+             "question":"1\/2 + 1\/4",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"3\/4",
+                   "reason":"Parabéns, a questão esta correta. igualando as bases, temos 2\/4 + 1\/4, entao podemos dizer que 1\/2 + 1\/3 é 3\/4"
+                },
+                {
+                   "id":2,
+                   "text":"2\/6",
+                   "reason":"1\/2 + 1\/3 não é 2\/6"
+                },
+                {
+                   "id":3,
+                   "text":"3\/5",
+                   "reason":"1\/2 + 1\/3 não é 3\/5"
+                },
+                {
+                   "id":4,
+                   "text":"6\/5",
+                   "reason":"1\/2 + 1\/3 não é 6\/5"
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Multiplicação",
+             "question":"8x7",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"48",
+                   "reason":"8x7 não é 48"
+                },
+                {
+                   "id":2,
+                   "text":"69",
+                   "reason":"8x7 não é 56"
+                },
+                {
+                   "id":3,
+                   "text":"56",
+                   "reason":"Parabéns, a questão esta correta. 8x7 é 56!"
+                },
+                {
+                   "id":4,
+                   "text":"64",
+                   "reason":"8x7 não é 64"
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Subtração",
+             "question":"25-9",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"15",
+                   "reason":"25-9 não é 15"
+                },
+                {
+                   "id":2,
+                   "text":"18",
+                   "reason":"25-9 não é 18"
+                },
+                {
+                   "id":3,
+                   "text":"16",
+                   "reason":"Parabéns, a questão esta correta. 25-9 é 16!"
+                },
+                {
+                   "id":4,
+                   "text":"14",
+                   "reason":"25-9 não é 14"
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Adição",
+             "question":"17+8",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"26",
+                   "reason":"17+8 não é 26"
+                },
+                {
+                   "id":2,
+                   "text":"21",
+                   "reason":"17+8 não é 21"
+                },
+                {
+                   "id":3,
+                   "text":"29",
+                   "reason":"17+8 não é 29"
+                },
+                {
+                   "id":4,
+                   "text":"25",
+                   "reason":"Parabéns, a questão esta correta. 17+8 é 25!"
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Divisão",
+             "question":"15 ÷ 5",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"2",
+                   "reason":"15 ÷ 5 não é 2"
+                },
+                {
+                   "id":2,
+                   "text":"3",
+                   "reason":"Parabéns, a questão esta correta. 15 ÷ 5 é 3!"
+                },
+                {
+                   "id":3,
+                   "text":"4",
+                   "reason":"15 ÷ 5 não é 4"
+                },
+                {
+                   "id":4,
+                   "text":"5",
+                   "reason":"15 ÷ 5 não é 5"
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Frações",
+             "question":"3\/4 + 1\/4",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"1\/2",
+                   "reason":"3\/4 + 1\/4 não é 1\/2"
+                },
+                {
+                   "id":2,
+                   "text":"1",
+                   "reason":"Parabéns, a questão esta correta. pois 3\/4 + 1\/4 = 4\/4, e 4\/4 é 1, então 3\/4 + 1\/4 é 1"
+                },
+                {
+                   "id":3,
+                   "text":"2\/3",
+                   "reason":"3\/4 + 1\/4 não é 2\/3"
+                },
+                {
+                   "id":4,
+                   "text":"1",
+                   "reason":"3\/4 + 1\/4 não é 1.25!"
+                }
+             ]
+          }
+       ]
+    },
     {
-        "id": 2,
-        "topic":"Ciência da Natureza",
-        "description":"questoes sobre as ciencias da natureza",
-        "question_list":[
-            {
-                "id": 1,
-                "title": "Estados da Água",
-                "question": "Qual é o estado da água a uma temperatura de 25°C?",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Gelo",
-                        "reason": "A água não está no estado de gelo a 25°C"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Líquido",
-                        "reason": "Correto! A água está no estado líquido a 25°C"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Vapor",
-                        "reason": "A água não está no estado de vapor a 25°C"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Cadeia Alimentar",
-                "question": "Qual é o organismo no topo de uma cadeia alimentar?",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Produtores",
-                        "reason": "Os produtores estão na base da cadeia alimentar"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Consumidores primários",
-                        "reason": "Os consumidores primários estão abaixo do topo da cadeia alimentar"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Consumidores quaternários",
-                        "reason": "Correto! Os consumidores quaternários estão no topo da cadeia alimentar"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Forças da natureza",
-                "question": "Qual é a força que mantém os objetos presos à superfície da Terra?",
-                "correct_alternative": 1,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Gravidade",
-                        "reason": "Correto! A gravidade é a força que mantém os objetos presos à superfície da Terra"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Força centrífuga",
-                        "reason": "A força centrífuga não mantém os objetos presos à superfície da Terra"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Atrito",
-                        "reason": "O atrito não é a força principal que mantém os objetos presos à superfície da Terra"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Ciclo da Água",
-                "question": "Qual é o processo pelo qual a água é evaporada das folhas das plantas?",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Precipitação",
-                        "reason": "A precipitação não envolve a evaporação da água das folhas das plantas"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Transpiração",
-                        "reason": "Correto! A transpiração é o processo pelo qual a água é evaporada das folhas das plantas"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Infiltração",
-                        "reason": "A infiltração não envolve a evaporação da água das folhas das plantas"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Corpos Celestes",
-                "question": "Qual é o corpo celeste que orbita a Terra?",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Marte",
-                        "reason": "Marte não orbita a Terra"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Lua",
-                        "reason": "Correto! A Lua é o corpo celeste que orbita a Terra"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Sol",
-                        "reason": "O Sol não orbita a Terra"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Reações Químicas",
-                "question": "Qual é o processo pelo qual uma substância perde elétrons?",
-                "correct_alternative": 1,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Oxidação",
-                        "reason": "Correto! A oxidação envolve a perda de elétrons por uma substância"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Redução",
-                        "reason": "A redução envolve o ganho de elétrons por uma substância"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Combustão",
-                        "reason": "A combustão envolve a reação de uma substância com oxigênio"
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "title": "Ecossistema",
-                "question": "Qual é o termo usado para descrever a interação de todos os seres vivos e elementos não vivos em uma área?",
-                "correct_alternative": 3,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Biosfera",
-                        "reason": "A biosfera é a parte da Terra onde a vida existe"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Hidrosfera",
-                        "reason": "A hidrosfera envolve a água na Terra, não necessariamente a interação de todos os seres vivos e elementos não vivos"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Ecossistema",
-                        "reason": "Correto! Um ecossistema descreve a interação de todos os seres vivos e elementos não vivos em uma área"
-                    }
-                ]
-            },
-            {
-                "id": 8,
-                "title": "Força",
-                "question": "Qual é a grandeza física que descreve a interação entre objetos e pode causar uma mudança de velocidade?",
-                "correct_alternative": 1,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Força",
-                        "reason": "Correto! A força é a grandeza física que descreve a interação entre objetos e pode causar uma mudança de velocidade"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Massa",
-                        "reason": "A massa é a quantidade de matéria em um objeto, não necessariamente descreve a interação entre objetos"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Energia",
-                        "reason": "A energia descreve a capacidade de fazer trabalho, mas não necessariamente causa mudanças de velocidade"
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "title": "Genética",
-                "question": "Qual é o termo para a troca de informações genéticas entre organismos que resulta em variação?",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "Mitose",
-                        "reason": "A mitose é o processo de divisão celular"
-                    },
-                    {
-                        "id": 2,
-                        "text": "Recombinação genética",
-                        "reason": "Correto! A recombinação genética é a troca de informações genéticas entre organismos que resulta em variação"
-                    },
-                    {
-                        "id": 3,
-                        "text": "Fotossíntese",
-                        "reason": "A fotossíntese é o processo pelo qual as plantas produzem seu próprio alimento"
-                    }
-                ]
-            },
-            {
-                "id": 10,
-                "title": "Ácidos e Bases",
-                "question": "Qual é o pH de uma substância neutra?",
-                "correct_alternative": 2,
-                "alternative_list": [
-                    {
-                        "id": 1,
-                        "text": "1",
-                        "reason": "O pH 1 é altamente ácido, não neutro"
-                    },
-                    {
-                        "id": 2,
-                        "text": "7",
-                        "reason": "Correto! O pH 7 é neutro"
-                    },
-                    {
-                        "id": 3,
-                        "text": "14",
-                        "reason": "O pH 14 é altamente básico, não neutro"
-                    }
-                ]
-            }
-        ]
+       "id":2,
+       "topic":"lingua portuguesa",
+       "description":"questoes simples de língua portuguesa",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Acentuação",
+             "question":"Qual das palavras abaixo está corretamente acentuada?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Cafézinho",
+                   "reason":"Cafézinho está incorretamente acentuada."
+                },
+                {
+                   "id":2,
+                   "text":"Amorosia",
+                   "reason":"Amorosia está incorretamente acentuada."
+                },
+                {
+                   "id":3,
+                   "text":"Alegria",
+                   "reason":"Parabéns, a palavra 'Alegria' está corretamente acentuada."
+                },
+                {
+                   "id":4,
+                   "text":"Cozinhá",
+                   "reason":"Cozinhá está incorretamente acentuada."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Sinônimos",
+             "question":"Qual é um sinônimo de 'feliz'?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Triste",
+                   "reason":"'Triste' é um antônimo de 'feliz'."
+                },
+                {
+                   "id":2,
+                   "text":"Alegre",
+                   "reason":"Parabéns, 'Alegre' é um sinônimo de 'feliz'."
+                },
+                {
+                   "id":3,
+                   "text":"Chateado",
+                   "reason":"'Chateado' não é um sinônimo de 'feliz'."
+                },
+                {
+                   "id":4,
+                   "text":"Irritado",
+                   "reason":"'Irritado' não é um sinônimo de 'feliz'."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Ortografia",
+             "question":"Qual é a forma correta de escrever a palavra?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Caminho",
+                   "reason":"Parabéns, a palavra correta é 'Caminho'."
+                },
+                {
+                   "id":2,
+                   "text":"Camminho",
+                   "reason":"'Camminho' está incorretamente escrita."
+                },
+                {
+                   "id":3,
+                   "text":"Caminnho",
+                   "reason":"'Caminnho' está incorretamente escrita."
+                },
+                {
+                   "id":4,
+                   "text":"Camnho",
+                   "reason":"'Camnho' está incorretamente escrita."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Figuras de Linguagem",
+             "question":"Qual figura de linguagem é usada na expressão 'Estou morrendo de rir'?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Onomatopeia",
+                   "reason":"'Onomatopeia' é a figura de linguagem relacionada a imitar sons."
+                },
+                {
+                   "id":2,
+                   "text":"Antítese",
+                   "reason":"'Antítese' é a figura de linguagem que contrasta ideias opostas."
+                },
+                {
+                   "id":3,
+                   "text":"Hiperbole",
+                   "reason":"Parabéns, 'Hiperbole' é a figura de linguagem usada para exagerar algo."
+                },
+                {
+                   "id":4,
+                   "text":"Metáfora",
+                   "reason":"'Metáfora' é a figura de linguagem que atribui um sentido figurado a uma palavra."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Pontuação",
+             "question":"Qual a função da vírgula na frase 'O livro, que é muito interessante, foi lançado ontem.'?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Isolar uma informação não essencial",
+                   "reason":"Parabéns, a vírgula isola a informação não essencial 'que é muito interessante'."
+                },
+                {
+                   "id":2,
+                   "text":"Separar sujeito e predicado",
+                   "reason":"A vírgula não separa sujeito e predicado nessa situação."
+                },
+                {
+                   "id":3,
+                   "text":"Indicar uma pausa",
+                   "reason":"A vírgula não indica uma pausa nessa situação."
+                },
+                {
+                   "id":4,
+                   "text":"Marcar uma enumeração",
+                   "reason":"A vírgula não marca uma enumeração nessa situação."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Gênero e Número",
+             "question":"Qual é o gênero e número da palavra 'mesas'?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Feminino e plural",
+                   "reason":"'Mesas' é plural, mas o gênero é masculino."
+                },
+                {
+                   "id":2,
+                   "text":"Masculino e plural",
+                   "reason":"Parabéns, 'Mesas' é plural e masculino."
+                },
+                {
+                   "id":3,
+                   "text":"Feminino e singular",
+                   "reason":"'Mesas' é plural, mas o gênero é masculino."
+                },
+                {
+                   "id":4,
+                   "text":"Masculino e singular",
+                   "reason":"'Mesas' é plural, mas o gênero é masculino."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Classes Gramaticais",
+             "question":"Na frase 'Ela corre rapidamente', qual a classe gramatical da palavra 'rapidamente'?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Substantivo",
+                   "reason":"'Rapidamente' não é um substantivo."
+                },
+                {
+                   "id":2,
+                   "text":"Verbo",
+                   "reason":"'Rapidamente' não é um verbo."
+                },
+                {
+                   "id":3,
+                   "text":"Advérbio",
+                   "reason":"Parabéns, 'Rapidamente' é um advérbio que modifica o verbo 'corre'."
+                },
+                {
+                   "id":4,
+                   "text":"Adjetivo",
+                   "reason":"'Rapidamente' não é um adjetivo."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Concordância Verbal",
+             "question":"Qual é a forma correta de concordância verbal na frase: 'Um dos alunos não entendeu a matéria.'?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um dos alunos não entenderam a matéria.",
+                   "reason":"Concordância incorreta."
+                },
+                {
+                   "id":2,
+                   "text":"Um dos alunos não entendeu a matérias.",
+                   "reason":"Concordância incorreta."
+                },
+                {
+                   "id":3,
+                   "text":"Um dos alunos não entenderam as matérias.",
+                   "reason":"Concordância incorreta."
+                },
+                {
+                   "id":4,
+                   "text":"Um dos alunos não entendeu a matéria.",
+                   "reason":"Parabéns, a concordância está correta."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Regência Verbal",
+             "question":"Qual é o verbo que completa corretamente a frase: 'Ele gosta de...'?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Ele gosta de nadar no mar.",
+                   "reason":"Parabéns, 'nadar no mar' é a regência correta."
+                },
+                {
+                   "id":2,
+                   "text":"Ele gosta do mar.",
+                   "reason":"Regência incorreta."
+                },
+                {
+                   "id":3,
+                   "text":"Ele gosta nadar no mar.",
+                   "reason":"Regência incorreta."
+                },
+                {
+                   "id":4,
+                   "text":"Ele gosta para nadar no mar.",
+                   "reason":"Regência incorreta."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Figuras de Linguagem",
+             "question":"Qual figura de linguagem é usada na expressão 'O silêncio é de ouro'?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Onomatopeia",
+                   "reason":"'Onomatopeia' não é a figura de linguagem usada nessa expressão."
+                },
+                {
+                   "id":2,
+                   "text":"Antítese",
+                   "reason":"'Antítese' não é a figura de linguagem usada nessa expressão."
+                },
+                {
+                   "id":3,
+                   "text":"Hiperbole",
+                   "reason":"'Hiperbole' não é a figura de linguagem usada nessa expressão."
+                },
+                {
+                   "id":4,
+                   "text":"Metáfora",
+                   "reason":"Parabéns, 'O silêncio é de ouro' é uma metáfora que atribui um sentido figurado à expressão."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":3,
+       "topic":"desenvolvimento flutter",
+       "description":"questoes sobre desenvolvimento com Flutter",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Widgets",
+             "question":"Qual widget é usado para exibir uma imagem?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Text",
+                   "reason":"'Text' é usado para exibir texto, não imagens."
+                },
+                {
+                   "id":2,
+                   "text":"Container",
+                   "reason":"'Container' é usado para layout e estilização, não para exibir imagens."
+                },
+                {
+                   "id":3,
+                   "text":"Image",
+                   "reason":"Parabéns, 'Image' é usado para exibir imagens em Flutter."
+                },
+                {
+                   "id":4,
+                   "text":"Icon",
+                   "reason":"'Icon' é usado para exibir ícones, não imagens."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"State Management",
+             "question":"Qual é uma técnica de gerenciamento de estado em Flutter?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Recyclerview",
+                   "reason":"'Recyclerview' não é uma técnica de gerenciamento de estado em Flutter."
+                },
+                {
+                   "id":2,
+                   "text":"Provider",
+                   "reason":"Parabéns, 'Provider' é uma técnica popular de gerenciamento de estado em Flutter."
+                },
+                {
+                   "id":3,
+                   "text":"BroadcastReceiver",
+                   "reason":"'BroadcastReceiver' é usado em Android, não em Flutter."
+                },
+                {
+                   "id":4,
+                   "text":"Callback",
+                   "reason":"'Callback' é uma função de retorno, não uma técnica de gerenciamento de estado."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Navegação",
+             "question":"Como é realizada a navegação entre telas em Flutter?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Por meio do widget 'TabBar'.",
+                   "reason":"'TabBar' é usado para criar abas de navegação, não para navegar entre telas."
+                },
+                {
+                   "id":2,
+                   "text":"Usando o widget 'Drawer'.",
+                   "reason":"'Drawer' é usado para criar um menu lateral, não para navegação entre telas."
+                },
+                {
+                   "id":3,
+                   "text":"Por meio do widget 'ListView'.",
+                   "reason":"'ListView' é usado para criar listas roláveis, não para navegar entre telas."
+                },
+                {
+                   "id":4,
+                   "text":"Com o widget 'Navigator'.",
+                   "reason":"Parabéns, a navegação entre telas em Flutter é realizada com o widget 'Navigator'."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Layout",
+             "question":"Qual widget é usado para criar um layout flexível que expande seu filho para preencher o espaço disponível?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Expanded",
+                   "reason":"Parabéns, o widget 'Expanded' é usado para criar um layout flexível que expande seu filho."
+                },
+                {
+                   "id":2,
+                   "text":"Flexible",
+                   "reason":"O widget 'Flexible' é usado para criar um layout flexível, mas não expande seu filho para preencher o espaço."
+                },
+                {
+                   "id":3,
+                   "text":"Align",
+                   "reason":"O widget 'Align' é usado para alinhar filhos dentro de um pai, mas não expande o filho para preencher o espaço."
+                },
+                {
+                   "id":4,
+                   "text":"Row",
+                   "reason":"O widget 'Row' é usado para criar uma linha de elementos, mas não expande o filho para preencher o espaço."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Stateful Widget",
+             "question":"Quando você deve usar um 'StatefulWidget' em vez de um 'StatelessWidget'?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Sempre que possível, pois 'StatefulWidget' é mais eficiente.",
+                   "reason":"Não é necessário usar 'StatefulWidget' sempre; 'StatelessWidget' é mais eficiente em certos casos."
+                },
+                {
+                   "id":2,
+                   "text":"Nunca, pois 'StatelessWidget' é mais flexível.",
+                   "reason":"'StatefulWidget' é necessário quando você precisa que um widget mantenha um estado mutável."
+                },
+                {
+                   "id":3,
+                   "text":"Quando o widget precisa manter um estado mutável.",
+                   "reason":"Parabéns, você deve usar 'StatefulWidget' quando o widget precisa manter um estado mutável."
+                },
+                {
+                   "id":4,
+                   "text":"Quando o widget contém apenas texto.",
+                   "reason":"Não é necessário usar 'StatefulWidget' apenas para texto; 'StatelessWidget' é suficiente nesse caso."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Dart Language",
+             "question":"Em Dart, qual é a diferença entre 'async' e 'sync'?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"'async' é usado para métodos síncronos, enquanto 'sync' é usado para métodos assíncronos.",
+                   "reason":"'async' é usado para métodos assíncronos, não síncronos."
+                },
+                {
+                   "id":2,
+                   "text":"'async' indica que um método é assíncrono, permitindo o uso de 'await', enquanto 'sync' indica que um método é síncrono.",
+                   "reason":"Parabéns, 'async' e 'sync' são usados para indicar se um método é assíncrono ou síncrono em Dart."
+                },
+                {
+                   "id":3,
+                   "text":"'async' e 'sync' são sinônimos e podem ser usados de forma intercambiável.",
+                   "reason":"'async' e 'sync' têm significados diferentes em Dart."
+                },
+                {
+                   "id":4,
+                   "text":"'async' é uma palavra-chave reservada em Dart, enquanto 'sync' não é usada.",
+                   "reason":"'async' e 'sync' são ambas palavras-chave em Dart."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Widgets",
+             "question":"Qual widget é usado para criar uma lista rolável de widgets com tamanho fixo?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"ListView",
+                   "reason":"Parabéns, 'ListView' é usado para criar uma lista rolável de widgets com tamanho fixo."
+                },
+                {
+                   "id":2,
+                   "text":"Column",
+                   "reason":"'Column' é usado para criar uma coluna vertical de widgets, mas não possui rolagem."
+                },
+                {
+                   "id":3,
+                   "text":"Row",
+                   "reason":"'Row' é usado para criar uma linha horizontal de widgets, mas não possui rolagem."
+                },
+                {
+                   "id":4,
+                   "text":"GridView",
+                   "reason":"'GridView' é usado para criar uma grade de widgets, mas não possui tamanho fixo."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Packages",
+             "question":"O que são 'packages' em Flutter?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Pastas de imagens usadas em um projeto Flutter.",
+                   "reason":"'Packages' não se referem a pastas de imagens."
+                },
+                {
+                   "id":2,
+                   "text":"Páginas individuais de um aplicativo Flutter.",
+                   "reason":"'Packages' não se referem a páginas individuais."
+                },
+                {
+                   "id":3,
+                   "text":"Widgets personalizados criados pelo desenvolvedor.",
+                   "reason":"'Packages' não se referem a widgets personalizados."
+                },
+                {
+                   "id":4,
+                   "text":"Pacotes de código reutilizável que podem ser adicionados a um projeto Flutter.",
+                   "reason":"Parabéns, 'packages' são pacotes de código reutilizável que podem ser adicionados a um projeto Flutter para adicionar funcionalidades."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Layout",
+             "question":"Qual widget é usado para criar um layout de grade com itens de tamanho fixo?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Row",
+                   "reason":"'Row' é usado para criar uma linha de widgets, não um layout de grade."
+                },
+                {
+                   "id":2,
+                   "text":"Column",
+                   "reason":"'Column' é usado para criar uma coluna de widgets, não um layout de grade."
+                },
+                {
+                   "id":3,
+                   "text":"GridView",
+                   "reason":"Parabéns, 'GridView' é usado para criar um layout de grade com itens de tamanho fixo."
+                },
+                {
+                   "id":4,
+                   "text":"Container",
+                   "reason":"'Container' é usado para layout e estilização, não para criar layouts de grade."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"State Management",
+             "question":"Qual é a principal vantagem de usar o gerenciamento de estado com 'Provider' em Flutter?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Melhora na performance geral do aplicativo.",
+                   "reason":"Embora o gerenciamento de estado possa afetar a performance, essa não é a principal vantagem do 'Provider'."
+                },
+                {
+                   "id":2,
+                   "text":"Facilita o compartilhamento de estado entre widgets de forma eficiente.",
+                   "reason":"Parabéns, 'Provider' facilita o compartilhamento de estado entre widgets de maneira eficiente."
+                },
+                {
+                   "id":3,
+                   "text":"Elimina a necessidade de usar widgets 'StatefulWidget'.",
+                   "reason":"'Provider' não elimina completamente a necessidade de 'StatefulWidget'."
+                },
+                {
+                   "id":4,
+                   "text":"Simplifica a criação de animações em Flutter.",
+                   "reason":"O 'Provider' não está diretamente relacionado à criação de animações."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":4,
+       "topic":"Desenvolvimento com Golang",
+       "description":"Questões sobre desenvolvimento com a linguagem Go (Golang)",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Sintaxe",
+             "question":"Qual é a forma correta de declarar uma variável 'idade' do tipo inteiro em Go?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"inteiro idade;",
+                   "reason":"Essa sintaxe não é válida em Go."
+                },
+                {
+                   "id":2,
+                   "text":"var idade int",
+                   "reason":"Parabéns, essa é a forma correta de declarar uma variável 'idade' do tipo inteiro em Go."
+                },
+                {
+                   "id":3,
+                   "text":"idade := int",
+                   "reason":"Essa sintaxe não é válida para declarar uma variável com um tipo específico."
+                },
+                {
+                   "id":4,
+                   "text":"var idade = int",
+                   "reason":"Essa sintaxe não é válida para declarar uma variável com um tipo específico."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Ponteiros",
+             "question":"Em Go, como obtemos o endereço de memória de uma variável 'numero'?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"&numero",
+                   "reason":"Essa é a sintaxe correta para obter o endereço de memória de uma variável em Go."
+                },
+                {
+                   "id":2,
+                   "text":"*numero",
+                   "reason":"Essa sintaxe não está correta para obter o endereço de memória."
+                },
+                {
+                   "id":3,
+                   "text":"&numero",
+                   "reason":"Parabéns, essa é a sintaxe correta para obter o endereço de memória de uma variável em Go."
+                },
+                {
+                   "id":4,
+                   "text":"$numero",
+                   "reason":"Essa sintaxe não está correta para obter o endereço de memória."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Funções",
+             "question":"Qual é a forma correta de declarar uma função chamada 'soma' que recebe dois inteiros e retorna a soma deles em Go?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"func soma(a, b int) int {...}",
+                   "reason":"Parabéns, essa é a forma correta de declarar a função 'soma' que recebe dois inteiros e retorna um inteiro em Go."
+                },
+                {
+                   "id":2,
+                   "text":"func soma(int a, int b) int {...}",
+                   "reason":"Essa sintaxe não está correta para declarar os parâmetros da função."
+                },
+                {
+                   "id":3,
+                   "text":"func soma(a int, b int) {...}",
+                   "reason":"Essa sintaxe não está correta para declarar o tipo de retorno da função."
+                },
+                {
+                   "id":4,
+                   "text":"func soma(a, b int) {...}",
+                   "reason":"Essa sintaxe não está correta para declarar o tipo de retorno da função."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Estruturas de Controle",
+             "question":"Qual é a estrutura de controle usada para repetir um bloco de código enquanto uma condição for verdadeira?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"if",
+                   "reason":"A estrutura 'if' é usada para tomar decisões baseadas em condições, não para repetir blocos de código."
+                },
+                {
+                   "id":2,
+                   "text":"else",
+                   "reason":"O 'else' não é uma estrutura de repetição."
+                },
+                {
+                   "id":3,
+                   "text":"switch",
+                   "reason":"O 'switch' é usado para tomar decisões com base em várias possibilidades, não para repetir blocos de código."
+                },
+                {
+                   "id":4,
+                   "text":"for",
+                   "reason":"Parabéns, a estrutura de repetição 'for' é usada para repetir um bloco de código enquanto uma condição for verdadeira."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Pacotes",
+             "question":"Em Go, como você importa o pacote 'fmt'?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"import 'fmt'",
+                   "reason":"Essa sintaxe não está correta para importar pacotes em Go."
+                },
+                {
+                   "id":2,
+                   "text":"import \"fmt\"",
+                   "reason":"Parabéns, essa é a sintaxe correta para importar o pacote 'fmt' em Go."
+                },
+                {
+                   "id":3,
+                   "text":"include 'fmt'",
+                   "reason":"Essa sintaxe não está correta para importar pacotes em Go."
+                },
+                {
+                   "id":4,
+                   "text":"use 'fmt'",
+                   "reason":"Essa sintaxe não está correta para importar pacotes em Go."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Slice",
+             "question":"Em Go, qual é a diferença entre um array e um slice?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um array tem tamanho fixo, enquanto um slice é uma exibição flexível de um array.",
+                   "reason":"Parabéns, essa é a diferença entre um array e um slice em Go."
+                },
+                {
+                   "id":2,
+                   "text":"Um array é uma lista de elementos, enquanto um slice é uma lista de strings.",
+                   "reason":"Essa descrição não diferencia um array de um slice de maneira correta."
+                },
+                {
+                   "id":3,
+                   "text":"Um slice tem tamanho fixo, enquanto um array é uma exibição flexível de um slice.",
+                   "reason":"Essa descrição não diferencia um array de um slice de maneira correta."
+                },
+                {
+                   "id":4,
+                   "text":"Um slice e um array são termos diferentes para o mesmo conceito em Go.",
+                   "reason":"Isso não é correto; um array e um slice têm propriedades diferentes em Go."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Métodos",
+             "question":"Em Go, como você declara um método chamado 'imprimir' para a estrutura 'Pessoa'?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"func (p Pessoa) imprimir() {...}",
+                   "reason":"Essa sintaxe não está correta para declarar um método em Go."
+                },
+                {
+                   "id":2,
+                   "text":"func Pessoa.imprimir() {...}",
+                   "reason":"Essa sintaxe não está correta para declarar um método em Go."
+                },
+                {
+                   "id":3,
+                   "text":"func (p Pessoa) imprimir() {...}",
+                   "reason":"Parabéns, essa é a forma correta de declarar um método 'imprimir' para a estrutura 'Pessoa' em Go."
+                },
+                {
+                   "id":4,
+                   "text":"method imprimir() for Pessoa {...}",
+                   "reason":"Essa sintaxe não está correta para declarar um método em Go."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Interfaces",
+             "question":"Em Go, uma interface é uma lista de...",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"métodos privados.",
+                   "reason":"Interfaces em Go especificam métodos públicos, não privados."
+                },
+                {
+                   "id":2,
+                   "text":"métodos públicos.",
+                   "reason":"Parabéns, interfaces em Go são uma lista de métodos públicos que uma estrutura pode implementar."
+                },
+                {
+                   "id":3,
+                   "text":"campos de dados.",
+                   "reason":"Interfaces não contêm campos de dados; elas especificam comportamentos."
+                },
+                {
+                   "id":4,
+                   "text":"estruturas de controle.",
+                   "reason":"Interfaces não estão relacionadas a estruturas de controle."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Goroutines",
+             "question":"O que são goroutines em Go?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Goroutines são threads leves que permitem que funções sejam executadas de forma concorrente.",
+                   "reason":"Parabéns, goroutines são threads leves em Go que permitem a execução concorrente de funções."
+                },
+                {
+                   "id":2,
+                   "text":"Goroutines são estruturas de dados usadas para armazenar múltiplos valores.",
+                   "reason":"Essa descrição não está correta para goroutines em Go."
+                },
+                {
+                   "id":3,
+                   "text":"Goroutines são estruturas usadas para definir a lógica de controle do programa.",
+                   "reason":"Essa descrição não está correta para goroutines em Go."
+                },
+                {
+                   "id":4,
+                   "text":"Goroutines são pacotes que contêm funções reutilizáveis.",
+                   "reason":"Essa descrição não está correta para goroutines em Go."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Canais",
+             "question":"Para que são usados os canais (channels) em Go?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Os canais são usados para definir estruturas de dados complexas.",
+                   "reason":"Os canais não são usados para definir estruturas de dados, mas sim para a comunicação entre goroutines."
+                },
+                {
+                   "id":2,
+                   "text":"Os canais são usados para a comunicação e sincronização entre goroutines.",
+                   "reason":"Parabéns, os canais em Go são usados para permitir a comunicação e sincronização entre goroutines."
+                },
+                {
+                   "id":3,
+                   "text":"Os canais são usados para criar interfaces gráficas em programas Go.",
+                   "reason":"Os canais não têm relação com a criação de interfaces gráficas."
+                },
+                {
+                   "id":4,
+                   "text":"Os canais são usados para armazenar strings e valores numéricos.",
+                   "reason":"Os canais não são usados apenas para armazenar valores, mas sim para a comunicação entre goroutines."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":5,
+       "topic":"Biologia",
+       "description":"Questões sobre conceitos de Biologia.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Células",
+             "question":"Qual é a unidade básica de todos os seres vivos?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Tecido",
+                   "reason":"O tecido é uma organização mais complexa do que a unidade básica dos seres vivos."
+                },
+                {
+                   "id":2,
+                   "text":"Órgão",
+                   "reason":"O órgão é uma organização mais complexa do que a unidade básica dos seres vivos."
+                },
+                {
+                   "id":3,
+                   "text":"Célula",
+                   "reason":"Parabéns, a célula é a unidade básica de todos os seres vivos."
+                },
+                {
+                   "id":4,
+                   "text":"Átomo",
+                   "reason":"O átomo é a menor unidade de matéria, mas não é a unidade básica dos seres vivos."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Genética",
+             "question":"Qual é a estrutura que carrega a informação genética em uma célula?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Lisossomo",
+                   "reason":"O lisossomo é um organelo celular envolvido na digestão intracelular."
+                },
+                {
+                   "id":2,
+                   "text":"Ribossomo",
+                   "reason":"O ribossomo é o local de síntese de proteínas, mas não carrega informações genéticas."
+                },
+                {
+                   "id":3,
+                   "text":"Mitocôndria",
+                   "reason":"A mitocôndria é a usina de energia da célula, mas não carrega informações genéticas."
+                },
+                {
+                   "id":4,
+                   "text":"DNA",
+                   "reason":"Parabéns, o DNA é a estrutura que carrega a informação genética em uma célula."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Evolução",
+             "question":"Qual é o processo pelo qual as espécies mudam ao longo do tempo?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Evolução",
+                   "reason":"Parabéns, evolução é o processo pelo qual as espécies mudam ao longo do tempo."
+                },
+                {
+                   "id":2,
+                   "text":"Reprodução",
+                   "reason":"A reprodução é um processo fundamental, mas não se refere à mudança das espécies ao longo do tempo."
+                },
+                {
+                   "id":3,
+                   "text":"Fotossíntese",
+                   "reason":"A fotossíntese é o processo pelo qual as plantas produzem seu próprio alimento, mas não se refere à mudança das espécies."
+                },
+                {
+                   "id":4,
+                   "text":"Digestão",
+                   "reason":"A digestão é o processo de quebra de alimentos, mas não se refere à mudança das espécies ao longo do tempo."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Ecologia",
+             "question":"Qual é o termo usado para descrever um local onde um organismo vive?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Biosfera",
+                   "reason":"A biosfera se refere à parte da Terra onde a vida existe, não a um local específico."
+                },
+                {
+                   "id":2,
+                   "text":"Habitat",
+                   "reason":"Parabéns, habitat é o termo usado para descrever um local onde um organismo vive."
+                },
+                {
+                   "id":3,
+                   "text":"Ecossistema",
+                   "reason":"O ecossistema inclui a comunidade de organismos e seu ambiente, não é apenas um local específico."
+                },
+                {
+                   "id":4,
+                   "text":"Bioma",
+                   "reason":"O bioma é uma região geográfica definida por suas características climáticas e ecológicas, não é apenas um local específico."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Anatomia",
+             "question":"Qual é o órgão responsável por bombear sangue pelo corpo humano?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Cérebro",
+                   "reason":"O cérebro é responsável pelo controle das funções do corpo, mas não pelo bombeamento de sangue."
+                },
+                {
+                   "id":2,
+                   "text":"Pulmões",
+                   "reason":"Os pulmões estão envolvidos na troca de gases, mas não bombeiam sangue pelo corpo."
+                },
+                {
+                   "id":3,
+                   "text":"Coração",
+                   "reason":"Parabéns, o coração é o órgão responsável por bombear sangue pelo corpo humano."
+                },
+                {
+                   "id":4,
+                   "text":"Fígado",
+                   "reason":"O fígado está envolvido no processamento de nutrientes e na desintoxicação, mas não bombeia sangue pelo corpo."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Classificação",
+             "question":"Qual é a categoria taxonômica que inclui várias ordens semelhantes?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Classe",
+                   "reason":"Parabéns, a classe é a categoria taxonômica que inclui várias ordens semelhantes."
+                },
+                {
+                   "id":2,
+                   "text":"Ordem",
+                   "reason":"A ordem é uma categoria taxonômica abaixo da classe e acima da família."
+                },
+                {
+                   "id":3,
+                   "text":"Família",
+                   "reason":"A família é uma categoria taxonômica abaixo da ordem e acima do gênero."
+                },
+                {
+                   "id":4,
+                   "text":"Gênero",
+                   "reason":"O gênero é uma categoria taxonômica abaixo da família e acima da espécie."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Metabolismo",
+             "question":"O que o termo 'metabolismo' se refere?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Processo de fotossíntese.",
+                   "reason":"A fotossíntese é parte do metabolismo, mas não o abrange completamente."
+                },
+                {
+                   "id":2,
+                   "text":"Processo de digestão.",
+                   "reason":"A digestão é parte do metabolismo, mas não o abrange completamente."
+                },
+                {
+                   "id":3,
+                   "text":"Processo de reprodução.",
+                   "reason":"A reprodução é parte das atividades dos seres vivos, mas não é o metabolismo."
+                },
+                {
+                   "id":4,
+                   "text":"Todas as reações químicas que ocorrem em um organismo para manter a vida.",
+                   "reason":"Parabéns, o metabolismo se refere a todas as reações químicas que ocorrem em um organismo para manter a vida."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Ecossistema",
+             "question":"O que é um decompositor em um ecossistema?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um organismo que produz energia por meio da fotossíntese.",
+                   "reason":"A definição se encaixa mais em produtores, não em decompositores."
+                },
+                {
+                   "id":2,
+                   "text":"Um organismo que quebra matéria orgânica em substâncias mais simples.",
+                   "reason":"Parabéns, um decompositor é um organismo que quebra matéria orgânica em substâncias mais simples, contribuindo para a reciclagem de nutrientes."
+                },
+                {
+                   "id":3,
+                   "text":"Um organismo que se alimenta apenas de outros consumidores.",
+                   "reason":"Essa definição não se aplica aos decompositores, mas aos consumidores."
+                },
+                {
+                   "id":4,
+                   "text":"Um organismo que se alimenta apenas de produtores.",
+                   "reason":"Essa definição não se aplica aos decompositores, mas aos consumidores."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Sistema Nervoso",
+             "question":"Qual é a célula do sistema nervoso responsável por transmitir impulsos elétricos?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Glóbulo branco",
+                   "reason":"Os glóbulos brancos são células do sistema imunológico, não do sistema nervoso."
+                },
+                {
+                   "id":2,
+                   "text":"Eritrócito",
+                   "reason":"Os eritrócitos são células do sangue envolvidas no transporte de oxigênio, não no sistema nervoso."
+                },
+                {
+                   "id":3,
+                   "text":"Neurônio",
+                   "reason":"Parabéns, o neurônio é a célula do sistema nervoso responsável por transmitir impulsos elétricos."
+                },
+                {
+                   "id":4,
+                   "text":"Célula muscular",
+                   "reason":"As células musculares estão envolvidas na contração muscular, não na transmissão de impulsos nervosos."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Ecologia",
+             "question":"O que é um ecossistema?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um grupo de organismos da mesma espécie.",
+                   "reason":"Isso descreve uma população, não um ecossistema."
+                },
+                {
+                   "id":2,
+                   "text":"Um conjunto de ecossistemas diferentes.",
+                   "reason":"Isso não é uma definição precisa de ecossistema."
+                },
+                {
+                   "id":3,
+                   "text":"Uma rede alimentar em uma região específica.",
+                   "reason":"Isso descreve uma cadeia alimentar ou uma teia alimentar, não um ecossistema."
+                },
+                {
+                   "id":4,
+                   "text":"Um sistema formado por uma comunidade de organismos e seu ambiente físico.",
+                   "reason":"Parabéns, um ecossistema é um sistema formado por uma comunidade de organismos e seu ambiente físico."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":6,
+       "topic":"Química",
+       "description":"Questões sobre conceitos de Química.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Elementos e Átomos",
+             "question":"Qual é o menor componente de um elemento que ainda mantém suas propriedades químicas?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Íon",
+                   "reason":"Um íon é um átomo ou molécula que ganhou ou perdeu elétrons, alterando suas propriedades."
+                },
+                {
+                   "id":2,
+                   "text":"Molécula",
+                   "reason":"Uma molécula é uma combinação de átomos, mas não é o menor componente de um elemento."
+                },
+                {
+                   "id":3,
+                   "text":"Elétron",
+                   "reason":"Os elétrons são partículas subatômicas e não são o menor componente de um elemento."
+                },
+                {
+                   "id":4,
+                   "text":"Átomo",
+                   "reason":"Parabéns, o átomo é o menor componente de um elemento que ainda mantém suas propriedades químicas."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Tabela Periódica",
+             "question":"O que as letras representam na Tabela Periódica dos Elementos?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"O número de prótons no núcleo do átomo.",
+                   "reason":"Isso se refere ao número atômico, não às letras representadas."
+                },
+                {
+                   "id":2,
+                   "text":"O símbolo do elemento químico.",
+                   "reason":"Parabéns, as letras representam o símbolo do elemento químico na Tabela Periódica."
+                },
+                {
+                   "id":3,
+                   "text":"O número de elétrons na última camada do átomo.",
+                   "reason":"Isso está relacionado à configuração eletrônica, mas não às letras representadas."
+                },
+                {
+                   "id":4,
+                   "text":"A massa atômica do elemento.",
+                   "reason":"A massa atômica é representada por números, não por letras."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Ligações Químicas",
+             "question":"Que tipo de ligação ocorre quando os átomos compartilham elétrons?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Ligação covalente.",
+                   "reason":"Parabéns, a ligação covalente ocorre quando os átomos compartilham elétrons."
+                },
+                {
+                   "id":2,
+                   "text":"Ligação iônica.",
+                   "reason":"A ligação iônica envolve transferência de elétrons, não compartilhamento."
+                },
+                {
+                   "id":3,
+                   "text":"Ligação metálica.",
+                   "reason":"A ligação metálica envolve uma rede de átomos em uma estrutura sólida, não compartilhamento de elétrons."
+                },
+                {
+                   "id":4,
+                   "text":"Ligação de hidrogênio.",
+                   "reason":"A ligação de hidrogênio envolve a atração entre um hidrogênio ligado a um átomo eletronegativo, não compartilhamento."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Reações Químicas",
+             "question":"O que representa a equação química 2H₂ + O₂ → 2H₂O?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A decomposição da água em hidrogênio e oxigênio.",
+                   "reason":"A equação representa a formação da água, não a sua decomposição."
+                },
+                {
+                   "id":2,
+                   "text":"A combinação de hidrogênio e oxigênio para formar oxigênio molecular.",
+                   "reason":"A equação representa a formação da água, não a formação de oxigênio molecular."
+                },
+                {
+                   "id":3,
+                   "text":"A combinação de hidrogênio e oxigênio para formar água.",
+                   "reason":"Parabéns, a equação química representa a combinação de hidrogênio e oxigênio para formar água."
+                },
+                {
+                   "id":4,
+                   "text":"A decomposição do oxigênio em hidrogênio e oxigênio molecular.",
+                   "reason":"A equação não representa a decomposição do oxigênio."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Equilíbrio Químico",
+             "question":"O que acontece em um sistema químico em equilíbrio?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"As reações químicas continuam ocorrendo, mas não há alteração nas concentrações dos reagentes e produtos.",
+                   "reason":"Em um sistema em equilíbrio, as taxas das reações direta e inversa são iguais, resultando em concentrações constantes."
+                },
+                {
+                   "id":2,
+                   "text":"As taxas das reações direta e inversa são iguais, resultando em concentrações constantes de reagentes e produtos.",
+                   "reason":"Parabéns, essa é uma descrição precisa do equilíbrio químico."
+                },
+                {
+                   "id":3,
+                   "text":"As reações químicas se interrompem completamente, e não há mais mudanças nas concentrações.",
+                   "reason":"Em um sistema em equilíbrio, as reações ainda ocorrem, mas as concentrações permanecem constantes."
+                },
+                {
+                   "id":4,
+                   "text":"As reações químicas continuam ocorrendo, mas apenas os produtos são formados.",
+                   "reason":"Em um sistema em equilíbrio, tanto reagentes quanto produtos estão presentes nas concentrações constantes."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Termodinâmica",
+             "question":"Qual é a lei da termodinâmica que afirma que a energia não pode ser criada nem destruída, apenas convertida de uma forma para outra?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Primeira Lei da Termodinâmica.",
+                   "reason":"Parabéns, a Primeira Lei da Termodinâmica afirma o princípio da conservação de energia."
+                },
+                {
+                   "id":2,
+                   "text":"Segunda Lei da Termodinâmica.",
+                   "reason":"A Segunda Lei da Termodinâmica trata da irreversibilidade dos processos."
+                },
+                {
+                   "id":3,
+                   "text":"Terceira Lei da Termodinâmica.",
+                   "reason":"A Terceira Lei da Termodinâmica aborda a temperatura absoluta e a entropia dos sistemas em baixas temperaturas."
+                },
+                {
+                   "id":4,
+                   "text":"Lei de Avogadro.",
+                   "reason":"A Lei de Avogadro relaciona volumes de gases, não está relacionada à conservação de energia."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Ácidos e Bases",
+             "question":"Qual é o pH neutro?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"2",
+                   "reason":"O pH 2 é ácido, não neutro."
+                },
+                {
+                   "id":2,
+                   "text":"10",
+                   "reason":"O pH 10 é básico, não neutro."
+                },
+                {
+                   "id":3,
+                   "text":"7",
+                   "reason":"Parabéns, o pH 7 é neutro."
+                },
+                {
+                   "id":4,
+                   "text":"5",
+                   "reason":"O pH 5 é ácido, não neutro."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Eletroquímica",
+             "question":"O que é uma pilha galvânica?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um dispositivo que utiliza reações de oxidação e redução para produzir energia elétrica.",
+                   "reason":"Parabéns, uma pilha galvânica converte energia química em energia elétrica por meio de reações redox."
+                },
+                {
+                   "id":2,
+                   "text":"Um dispositivo que converte energia elétrica em energia química.",
+                   "reason":"Essa descrição se aplica mais a uma célula eletrolítica."
+                },
+                {
+                   "id":3,
+                   "text":"Um dispositivo que utiliza reações de neutralização para produzir energia elétrica.",
+                   "reason":"Essa descrição não se encaixa em pilhas galvânicas."
+                },
+                {
+                   "id":4,
+                   "text":"Um dispositivo que gera eletricidade a partir da luz solar.",
+                   "reason":"Essa descrição se refere a células solares, não a pilhas galvânicas."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Radioatividade",
+             "question":"O que é um isótopo radioativo?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um átomo que perdeu elétrons e se tornou carregado positivamente.",
+                   "reason":"Isso se refere a um cátion, não a um isótopo radioativo."
+                },
+                {
+                   "id":2,
+                   "text":"Um átomo que possui um núcleo instável e emite radiações.",
+                   "reason":"Parabéns, um isótopo radioativo é um átomo que possui um núcleo instável e emite radiações."
+                },
+                {
+                   "id":3,
+                   "text":"Um átomo que ganhou elétrons e se tornou carregado negativamente.",
+                   "reason":"Isso se refere a um ânion, não a um isótopo radioativo."
+                },
+                {
+                   "id":4,
+                   "text":"Um átomo que possui um número igual de prótons e elétrons.",
+                   "reason":"Essa descrição se aplica a um átomo neutro, não a um isótopo radioativo."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Cinética Química",
+             "question":"O que a cinética química estuda?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"As propriedades físicas dos elementos químicos.",
+                   "reason":"Isso está mais relacionado à química física, não à cinética química."
+                },
+                {
+                   "id":2,
+                   "text":"A estrutura atômica dos compostos químicos.",
+                   "reason":"Isso está mais relacionado à química estrutural, não à cinética química."
+                },
+                {
+                   "id":3,
+                   "text":"A identificação de elementos e compostos químicos.",
+                   "reason":"Isso está mais relacionado à química analítica, não à cinética química."
+                },
+                {
+                   "id":4,
+                   "text":"A velocidade das reações químicas e os fatores que a influenciam.",
+                   "reason":"Parabéns, a cinética química estuda a velocidade das reações químicas e os fatores que a afetam."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":7,
+       "topic":"Conceitos de Física",
+       "description":"Questões sobre conceitos fundamentais de Física.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Movimento Retilíneo",
+             "question":"Qual é a equação que descreve o movimento uniformemente variado?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Δx = v × t",
+                   "reason":"Essa equação descreve o deslocamento em um movimento uniforme."
+                },
+                {
+                   "id":2,
+                   "text":"v = a × t",
+                   "reason":"Essa equação descreve a velocidade em um movimento uniformemente acelerado."
+                },
+                {
+                   "id":3,
+                   "text":"Δx = v₀t + (1/2)at²",
+                   "reason":"Parabéns, essa é a equação do movimento uniformemente variado."
+                },
+                {
+                   "id":4,
+                   "text":"F = m × a",
+                   "reason":"Essa é a equação da segunda lei de Newton, não está relacionada ao movimento uniformemente variado."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Força e Movimento",
+             "question":"De acordo com a segunda lei de Newton, qual é a relação entre força, massa e aceleração?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"F = m × g",
+                   "reason":"Essa é a relação para o peso de um objeto na Terra."
+                },
+                {
+                   "id":2,
+                   "text":"F = m / a",
+                   "reason":"Essa relação não está de acordo com a segunda lei de Newton."
+                },
+                {
+                   "id":3,
+                   "text":"F = m × v",
+                   "reason":"Essa relação não está de acordo com a segunda lei de Newton."
+                },
+                {
+                   "id":4,
+                   "text":"F = m × a",
+                   "reason":"Parabéns, de acordo com a segunda lei de Newton, a força é igual à massa multiplicada pela aceleração."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Trabalho e Energia",
+             "question":"O que é trabalho, em termos físicos?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Uma quantidade de energia armazenada em um objeto.",
+                   "reason":"Isso descreve mais a energia potencial, não o trabalho."
+                },
+                {
+                   "id":2,
+                   "text":"A transferência de energia devido à aplicação de uma força ao longo de uma distância.",
+                   "reason":"Parabéns, essa é a definição de trabalho em termos físicos."
+                },
+                {
+                   "id":3,
+                   "text":"A resistência de um objeto ao se mover através de um fluido.",
+                   "reason":"Isso descreve o conceito de arrasto, não o trabalho."
+                },
+                {
+                   "id":4,
+                   "text":"A taxa de mudança de velocidade de um objeto.",
+                   "reason":"Isso está relacionado à aceleração, não ao trabalho."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Energia Cinética",
+             "question":"Qual é a expressão matemática para a energia cinética de um objeto em movimento?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Energia cinética (Ec) = (1/2) × massa × velocidade²",
+                   "reason":"Parabéns, essa é a expressão correta para a energia cinética."
+                },
+                {
+                   "id":2,
+                   "text":"Energia cinética (Ec) = massa × aceleração",
+                   "reason":"Essa expressão não está correta para a energia cinética."
+                },
+                {
+                   "id":3,
+                   "text":"Energia cinética (Ec) = velocidade × força",
+                   "reason":"Essa expressão não está correta para a energia cinética."
+                },
+                {
+                   "id":4,
+                   "text":"Energia cinética (Ec) = (1/2) × massa × aceleração²",
+                   "reason":"Essa expressão não está correta para a energia cinética."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Leis de Kepler",
+             "question":"Qual é a terceira lei de Kepler?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A órbita de um planeta é uma elipse com o Sol em um dos focos.",
+                   "reason":"Essa é a primeira lei de Kepler."
+                },
+                {
+                   "id":2,
+                   "text":"A linha que liga o planeta ao Sol varre áreas iguais em intervalos de tempo iguais.",
+                   "reason":"Essa é a segunda lei de Kepler."
+                },
+                {
+                   "id":3,
+                   "text":"O quadrado do período de revolução de um planeta é proporcional ao cubo do semieixo maior da órbita.",
+                   "reason":"Parabéns, essa é a terceira lei de Kepler."
+                },
+                {
+                   "id":4,
+                   "text":"A aceleração de um planeta é diretamente proporcional à força exercida pelo Sol sobre ele.",
+                   "reason":"Essa descrição não está correta para as leis de Kepler."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Leis de Newton",
+             "question":"Qual é a primeira lei de Newton?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A força resultante sobre um objeto é diretamente proporcional à aceleração dele.",
+                   "reason":"Essa descrição não está correta para a primeira lei de Newton."
+                },
+                {
+                   "id":2,
+                   "text":"Um objeto permanece em repouso ou em movimento retilíneo uniforme a menos que uma força externa atue sobre ele.",
+                   "reason":"Parabéns, essa é a primeira lei de Newton, também conhecida como lei da inércia."
+                },
+                {
+                   "id":3,
+                   "text":"A aceleração de um objeto é diretamente proporcional à força resultante sobre ele.",
+                   "reason":"Essa descrição não está correta para a primeira lei de Newton."
+                },
+                {
+                   "id":4,
+                   "text":"A força exercida por um objeto é inversamente proporcional à sua massa.",
+                   "reason":"Essa descrição não está correta para a primeira lei de Newton."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Gravitação Universal",
+             "question":"Qual é a lei da gravitação universal formulada por Isaac Newton?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Lei da ação e reação.",
+                   "reason":"Essa é a terceira lei de Newton, não a lei da gravitação universal."
+                },
+                {
+                   "id":2,
+                   "text":"Lei da inércia.",
+                   "reason":"Essa é a primeira lei de Newton, não a lei da gravitação universal."
+                },
+                {
+                   "id":3,
+                   "text":"Lei da aceleração.",
+                   "reason":"Essa é a segunda lei de Newton, não a lei da gravitação universal."
+                },
+                {
+                   "id":4,
+                   "text":"Lei da gravitação universal.",
+                   "reason":"Parabéns, essa é a lei formulada por Isaac Newton que descreve a força gravitacional entre dois corpos."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Ondas",
+             "question":"Qual é a distância entre dois pontos consecutivos em uma onda?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Comprimento de onda.",
+                   "reason":"Parabéns, o comprimento de onda é a distância entre dois pontos consecutivos em uma onda."
+                },
+                {
+                   "id":2,
+                   "text":"Amplitude.",
+                   "reason":"A amplitude é a medida da altura de um ponto máximo até o ponto de equilíbrio da onda."
+                },
+                {
+                   "id":3,
+                   "text":"Frequência.",
+                   "reason":"A frequência é o número de ciclos de onda que passam por um ponto em um segundo."
+                },
+                {
+                   "id":4,
+                   "text":"Velocidade de propagação.",
+                   "reason":"A velocidade de propagação é a taxa de deslocamento da onda."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Efeito Doppler",
+             "question":"O que é o efeito Doppler?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A mudança de cor de uma fonte de luz devido à velocidade de propagação.",
+                   "reason":"Essa descrição não está correta para o efeito Doppler."
+                },
+                {
+                   "id":2,
+                   "text":"A variação de intensidade de uma onda sonora à medida que se propaga.",
+                   "reason":"Essa descrição não está correta para o efeito Doppler."
+                },
+                {
+                   "id":3,
+                   "text":"A alteração na frequência percebida de uma onda quando a fonte e/ou o observador estão em movimento relativo.",
+                   "reason":"Parabéns, essa é a definição correta do efeito Doppler."
+                },
+                {
+                   "id":4,
+                   "text":"A deformação de uma onda ao atingir uma superfície refletora.",
+                   "reason":"Essa descrição não está correta para o efeito Doppler."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Óptica",
+             "question":"Qual é a característica fundamental das lentes convergentes?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Elas espalham a luz que passa por elas.",
+                   "reason":"Essa descrição se aplica mais às lentes divergentes."
+                },
+                {
+                   "id":2,
+                   "text":"Elas focalizam a luz em um ponto após a passagem pela lente.",
+                   "reason":"Parabéns, as lentes convergentes focalizam a luz em um ponto após a passagem pela lente."
+                },
+                {
+                   "id":3,
+                   "text":"Elas refletem a luz que passa por elas.",
+                   "reason":"Essa descrição não está correta para lentes convergentes."
+                },
+                {
+                   "id":4,
+                   "text":"Elas não têm efeito na luz que passa por elas.",
+                   "reason":"Essa descrição não está correta para lentes convergentes."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":8,
+       "topic":"English",
+       "description":"Questions related to the English language.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Verb Tenses",
+             "question":"Which tense is used to describe actions that are happening at the moment of speaking?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Past Simple",
+                   "reason":"Past Simple is used to describe completed actions in the past."
+                },
+                {
+                   "id":2,
+                   "text":"Present Perfect",
+                   "reason":"Present Perfect is used to connect past actions to the present moment."
+                },
+                {
+                   "id":3,
+                   "text":"Future Continuous",
+                   "reason":"Future Continuous is used to describe ongoing actions in the future."
+                },
+                {
+                   "id":4,
+                   "text":"Present Continuous",
+                   "reason":"Correct! Present Continuous is used for actions happening at the moment of speaking."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Modal Verbs",
+             "question":"Which modal verb is used to express possibility?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Can",
+                   "reason":"Correct! 'Can' is used to express possibility or ability."
+                },
+                {
+                   "id":2,
+                   "text":"Must",
+                   "reason":"'Must' is used to express necessity or obligation."
+                },
+                {
+                   "id":3,
+                   "text":"Should",
+                   "reason":"'Should' is used to express advice or recommendation."
+                },
+                {
+                   "id":4,
+                   "text":"May",
+                   "reason":"'May' is used to express possibility or permission."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Prepositions",
+             "question":"Which preposition is used to indicate the location of something?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"For",
+                   "reason":"'For' is used to indicate purpose or duration."
+                },
+                {
+                   "id":2,
+                   "text":"In",
+                   "reason":"Correct! 'In' is often used to indicate location."
+                },
+                {
+                   "id":3,
+                   "text":"With",
+                   "reason":"'With' is used to indicate companionship or possession."
+                },
+                {
+                   "id":4,
+                   "text":"On",
+                   "reason":"'On' is used to indicate surface contact or time."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Pronouns",
+             "question":"Which pronoun is used as the object of a sentence?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"I",
+                   "reason":"'I' is a subject pronoun."
+                },
+                {
+                   "id":2,
+                   "text":"He",
+                   "reason":"'He' is a subject pronoun."
+                },
+                {
+                   "id":3,
+                   "text":"Me",
+                   "reason":"Correct! 'Me' is an object pronoun."
+                },
+                {
+                   "id":4,
+                   "text":"They",
+                   "reason":"'They' is a subject pronoun."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Comparatives and Superlatives",
+             "question":"Which form is used to compare three or more items?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Superlative",
+                   "reason":"Correct! Superlative is used to compare three or more items."
+                },
+                {
+                   "id":2,
+                   "text":"Comparative",
+                   "reason":"Comparative is used to compare two items."
+                },
+                {
+                   "id":3,
+                   "text":"Positive",
+                   "reason":"Positive form is used to describe one item without comparison."
+                },
+                {
+                   "id":4,
+                   "text":"None of the above",
+                   "reason":"The correct answer is 'Superlative.'"
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Irregular Verbs",
+             "question":"Which verb is the correct past tense form of 'go'?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Goed",
+                   "reason":"This is not the correct past tense form of 'go.'"
+                },
+                {
+                   "id":2,
+                   "text":"Went",
+                   "reason":"Correct! 'Went' is the correct past tense form of 'go.'"
+                },
+                {
+                   "id":3,
+                   "text":"Gone",
+                   "reason":"'Gone' is the past participle form, not the past tense form."
+                },
+                {
+                   "id":4,
+                   "text":"Goes",
+                   "reason":"This is the present tense form, not the past tense form."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Articles",
+             "question":"Which article is used before a singular, countable noun that starts with a vowel sound?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A",
+                   "reason":"'A' is used before consonant sounds."
+                },
+                {
+                   "id":2,
+                   "text":"An",
+                   "reason":"Correct! 'An' is used before vowel sounds."
+                },
+                {
+                   "id":3,
+                   "text":"The",
+                   "reason":"'The' is used before specific nouns."
+                },
+                {
+                   "id":4,
+                   "text":"None of the above",
+                   "reason":"The correct answer is 'An.'"
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Phrasal Verbs",
+             "question":"What do we call a verb that is followed by an adverb or preposition to give a new meaning?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Irregular Verb",
+                   "reason":"Irregular verbs have different past tense forms."
+                },
+                {
+                   "id":2,
+                   "text":"Phrasal Verb",
+                   "reason":"Correct! A phrasal verb consists of a verb and an adverb or preposition."
+                },
+                {
+                   "id":3,
+                   "text":"Modal Verb",
+                   "reason":"Modal verbs express possibility, necessity, etc."
+                },
+                {
+                   "id":4,
+                   "text":"Regular Verb",
+                   "reason":"Regular verbs form the past tense by adding '-ed.'"
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Direct vs. Indirect Speech",
+             "question":"What is the reported speech of 'She said, 'I am reading a book.'''?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"She said that she was reading a book.",
+                   "reason":"Correct! In indirect speech, the verb tense often changes."
+                },
+                {
+                   "id":2,
+                   "text":"She said that she is reading a book.",
+                   "reason":"The verb tense should change in reported speech."
+                },
+                {
+                   "id":3,
+                   "text":"She says that she was reading a book.",
+                   "reason":"This is direct speech, not reported speech."
+                },
+                {
+                   "id":4,
+                   "text":"She said that I am reading a book.",
+                   "reason":"The pronoun should change in reported speech."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Passive Voice",
+             "question":"What is the passive voice form of 'They are building a new house.'?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"They are built a new house by.",
+                   "reason":"This is not the correct passive voice form."
+                },
+                {
+                   "id":2,
+                   "text":"A new house is being built by them.",
+                   "reason":"The passive voice structure should include the verb 'being.'"
+                },
+                {
+                   "id":3,
+                   "text":"A new house is building by them.",
+                   "reason":"This is not the correct passive voice form."
+                },
+                {
+                   "id":4,
+                   "text":"A new house is being built by them.",
+                   "reason":"Correct! This is the correct passive voice form."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":9,
+       "topic":"Economia",
+       "description":"Questões relacionadas à economia.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Oferta e Demanda",
+             "question":"O que acontece com o preço de um produto quando a demanda aumenta?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"O preço permanece o mesmo.",
+                   "reason":"Geralmente, o preço não permanece o mesmo quando a demanda aumenta."
+                },
+                {
+                   "id":2,
+                   "text":"O preço diminui.",
+                   "reason":"Normalmente, o preço não diminui quando a demanda aumenta."
+                },
+                {
+                   "id":3,
+                   "text":"O preço aumenta.",
+                   "reason":"Correto! O preço tende a aumentar quando a demanda por um produto aumenta."
+                },
+                {
+                   "id":4,
+                   "text":"O preço flutua aleatoriamente.",
+                   "reason":"Geralmente, há uma tendência de aumento de preço quando a demanda aumenta."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Inflação",
+             "question":"O que é inflação?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"A diminuição geral e persistente dos preços.",
+                   "reason":"Isso se refere a deflação, não inflação."
+                },
+                {
+                   "id":2,
+                   "text":"O aumento geral e contínuo dos preços dos bens e serviços.",
+                   "reason":"Correto! A inflação é o aumento constante dos preços."
+                },
+                {
+                   "id":3,
+                   "text":"A estagnação dos preços.",
+                   "reason":"Isso não representa inflação."
+                },
+                {
+                   "id":4,
+                   "text":"A ausência total de preços.",
+                   "reason":"Isso não é uma definição adequada de inflação."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"PIB",
+             "question":"O que significa a sigla PIB?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Produto Interno Bruto.",
+                   "reason":"Correto! A sigla PIB representa Produto Interno Bruto."
+                },
+                {
+                   "id":2,
+                   "text":"Produto Interno Líquido.",
+                   "reason":"Essa sigla se refere a uma medida diferente da economia."
+                },
+                {
+                   "id":3,
+                   "text":"Poupança e Investimento Bancário.",
+                   "reason":"Essa sigla não se relaciona com a economia."
+                },
+                {
+                   "id":4,
+                   "text":"Produto Internacional Bruto.",
+                   "reason":"Essa sigla não é a correta."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Juros",
+             "question":"O que são juros compostos?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Juros calculados sobre o montante principal e os juros acumulados anteriormente.",
+                   "reason":"Correto! Juros compostos consideram tanto o principal quanto os juros acumulados."
+                },
+                {
+                   "id":2,
+                   "text":"Juros fixos que não mudam ao longo do tempo.",
+                   "reason":"Essa descrição não é precisa para juros compostos."
+                },
+                {
+                   "id":3,
+                   "text":"Juros calculados apenas sobre o montante principal.",
+                   "reason":"Essa descrição não é precisa para juros compostos."
+                },
+                {
+                   "id":4,
+                   "text":"Juros que só são aplicados em empréstimos.",
+                   "reason":"Juros compostos podem ser aplicados tanto em empréstimos quanto em investimentos."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Desemprego",
+             "question":"O que é o desemprego estrutural?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"O desemprego de curto prazo causado por flutuações econômicas.",
+                   "reason":"Essa descrição não corresponde ao desemprego estrutural."
+                },
+                {
+                   "id":2,
+                   "text":"O desemprego causado por um desajuste entre as habilidades dos trabalhadores e as demandas do mercado de trabalho.",
+                   "reason":"Correto! O desemprego estrutural é causado por desajustes entre habilidades e demandas."
+                },
+                {
+                   "id":3,
+                   "text":"O desemprego causado pela sazonalidade das indústrias.",
+                   "reason":"Isso se refere ao desemprego sazonal, não estrutural."
+                },
+                {
+                   "id":4,
+                   "text":"O desemprego causado por falta de vontade dos trabalhadores de aceitar empregos disponíveis.",
+                   "reason":"Essa descrição não corresponde ao desemprego estrutural."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Política Monetária",
+             "question":"Qual é a principal ferramenta de controle da política monetária pelo banco central?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Aumentar os gastos públicos.",
+                   "reason":"Isso se refere à política fiscal, não à política monetária."
+                },
+                {
+                   "id":2,
+                   "text":"Definir taxas de câmbio.",
+                   "reason":"Taxas de câmbio não são uma ferramenta principal de política monetária."
+                },
+                {
+                   "id":3,
+                   "text":"Alterar as taxas de juros.",
+                   "reason":"Correto! Alterar as taxas de juros é uma ferramenta importante da política monetária."
+                },
+                {
+                   "id":4,
+                   "text":"Regular a oferta de moeda física.",
+                   "reason":"A oferta de moeda física é mais relacionada à política monetária, mas não é a principal ferramenta."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Ciclos Econômicos",
+             "question":"O que é uma recessão econômica?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um período de rápido crescimento econômico.",
+                   "reason":"Isso descreve um período de expansão econômica."
+                },
+                {
+                   "id":2,
+                   "text":"Um período de declínio na atividade econômica, caracterizado por redução da produção e do emprego.",
+                   "reason":"Correto! Uma recessão é um período de declínio econômico."
+                },
+                {
+                   "id":3,
+                   "text":"Um período de inflação alta.",
+                   "reason":"Inflação alta não é uma característica de uma recessão."
+                },
+                {
+                   "id":4,
+                   "text":"Um período de equilíbrio entre oferta e demanda.",
+                   "reason":"Isso não descreve uma recessão econômica."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Mercado Financeiro",
+             "question":"O que é um investimento de renda fixa?",
+             "correct_alternative":1,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um investimento em que o investidor empresta dinheiro a uma instituição e recebe juros em troca.",
+                   "reason":"Correto! Investimentos de renda fixa incluem empréstimos a instituições financeiras."
+                },
+                {
+                   "id":2,
+                   "text":"Um investimento em ações de empresas de tecnologia.",
+                   "reason":"Isso descreve investimentos em ações, não em renda fixa."
+                },
+                {
+                   "id":3,
+                   "text":"Um investimento em bens tangíveis, como imóveis.",
+                   "reason":"Isso se refere a investimentos em ativos reais, não a renda fixa."
+                },
+                {
+                   "id":4,
+                   "text":"Um investimento de alto risco em startups.",
+                   "reason":"Isso descreve investimentos de capital de risco, não de renda fixa."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Desenvolvimento Sustentável",
+             "question":"O que é o desenvolvimento sustentável?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um modelo econômico baseado apenas no crescimento econômico.",
+                   "reason":"Desenvolvimento sustentável não se baseia apenas no crescimento econômico."
+                },
+                {
+                   "id":2,
+                   "text":"Um modelo econômico que ignora as questões ambientais.",
+                   "reason":"Desenvolvimento sustentável leva em consideração as questões ambientais."
+                },
+                {
+                   "id":3,
+                   "text":"Um modelo que busca atender às necessidades presentes sem comprometer as gerações futuras.",
+                   "reason":"Correto! Desenvolvimento sustentável busca equilibrar as necessidades presentes e futuras."
+                },
+                {
+                   "id":4,
+                   "text":"Um modelo que prioriza apenas os lucros das empresas.",
+                   "reason":"Desenvolvimento sustentável vai além dos lucros das empresas."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Crescimento Econômico",
+             "question":"O que é o Produto Potencial?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"O nível máximo de produção que uma economia pode atingir.",
+                   "reason":"Isso descreve o nível máximo de produção, não o Produto Potencial."
+                },
+                {
+                   "id":2,
+                   "text":"O nível de produção sustentável que uma economia pode manter a longo prazo.",
+                   "reason":"Correto! O Produto Potencial é o nível de produção sustentável."
+                },
+                {
+                   "id":3,
+                   "text":"O nível de produção que uma economia alcança em períodos de crescimento rápido.",
+                   "reason":"Isso não descreve o Produto Potencial."
+                },
+                {
+                   "id":4,
+                   "text":"O nível de produção que uma economia alcança durante uma recessão.",
+                   "reason":"O Produto Potencial não está diretamente relacionado a recessões."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":10,
+       "topic":"Protocolo Git",
+       "description":"Questões relacionadas ao protocolo Git.",
+       "question_list":[
+          {
+             "id":1,
+             "title":"Clonagem de Repositório",
+             "question":"Qual comando é usado para clonar um repositório Git?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"git commit",
+                   "reason":"Esse comando é usado para fazer um commit, não para clonar um repositório."
+                },
+                {
+                   "id":2,
+                   "text":"git push",
+                   "reason":"Esse comando é usado para enviar alterações locais para um repositório remoto."
+                },
+                {
+                   "id":3,
+                   "text":"git clone",
+                   "reason":"Correto! O comando 'git clone' é usado para clonar um repositório Git."
+                },
+                {
+                   "id":4,
+                   "text":"git fetch",
+                   "reason":"Esse comando é usado para buscar alterações do repositório remoto, mas não clona o repositório."
+                }
+             ]
+          },
+          {
+             "id":2,
+             "title":"Branches",
+             "question":"O que são branches no Git?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Arquivos individuais dentro do repositório.",
+                   "reason":"Branches não se referem a arquivos individuais, mas a linhas de desenvolvimento separadas."
+                },
+                {
+                   "id":2,
+                   "text":"Linhas de desenvolvimento separadas que permitem trabalhar em recursos ou correções isoladamente.",
+                   "reason":"Correto! Branches são linhas de desenvolvimento separadas."
+                },
+                {
+                   "id":3,
+                   "text":"Cópias de segurança automáticas de um repositório.",
+                   "reason":"Branches não são cópias de segurança, mas linhas de desenvolvimento."
+                },
+                {
+                   "id":4,
+                   "text":"Arquivos de configuração do Git.",
+                   "reason":"Branches não são arquivos de configuração."
+                }
+             ]
+          },
+          {
+             "id":3,
+             "title":"Commits",
+             "question":"O que é um commit no Git?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um comando para enviar alterações para um repositório remoto.",
+                   "reason":"Isso descreve o comando 'git push', não um commit."
+                },
+                {
+                   "id":2,
+                   "text":"Uma cópia do repositório inteiro.",
+                   "reason":"Um commit não é uma cópia do repositório inteiro, mas uma captura de um conjunto de alterações."
+                },
+                {
+                   "id":3,
+                   "text":"Um comando para sincronizar alterações locais com o repositório remoto.",
+                   "reason":"Isso descreve o comando 'git pull', não um commit."
+                },
+                {
+                   "id":4,
+                   "text":"Uma captura de um conjunto de alterações em um ponto específico do tempo.",
+                   "reason":"Correto! Um commit é uma captura de alterações."
+                }
+             ]
+          },
+          {
+             "id":4,
+             "title":"Merging",
+             "question":"O que é um merge no Git?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um comando para criar um novo branch.",
+                   "reason":"Isso não é a definição de um merge."
+                },
+                {
+                   "id":2,
+                   "text":"Um comando para desfazer um commit.",
+                   "reason":"Um merge não é um comando para desfazer um commit."
+                },
+                {
+                   "id":3,
+                   "text":"A incorporação das alterações de um branch em outro.",
+                   "reason":"Correto! Um merge é a incorporação de alterações de um branch em outro."
+                },
+                {
+                   "id":4,
+                   "text":"Um comando para excluir um repositório remoto.",
+                   "reason":"Isso não é a definição de um merge."
+                }
+             ]
+          },
+          {
+             "id":5,
+             "title":"Rebase",
+             "question":"O que é um rebase no Git?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um comando para clonar um repositório.",
+                   "reason":"Isso não é a definição de um rebase."
+                },
+                {
+                   "id":2,
+                   "text":"A reorganização das alterações de um branch sobre outro.",
+                   "reason":"Correto! Um rebase reorganiza as alterações para criar uma linha de histórico mais linear."
+                },
+                {
+                   "id":3,
+                   "text":"Um comando para criar um novo branch.",
+                   "reason":"Isso não é a definição de um rebase."
+                },
+                {
+                   "id":4,
+                   "text":"Um comando para enviar alterações para um repositório remoto.",
+                   "reason":"Isso não é a definição de um rebase."
+                }
+             ]
+          },
+          {
+             "id":6,
+             "title":"Resolução de Conflitos",
+             "question":"O que são conflitos de merge no Git?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Uma ferramenta gráfica para visualizar o histórico do repositório.",
+                   "reason":"Conflitos de merge não são uma ferramenta gráfica."
+                },
+                {
+                   "id":2,
+                   "text":"Branches que não foram mesclados corretamente.",
+                   "reason":"Conflitos de merge não são simplesmente branches não mesclados."
+                },
+                {
+                   "id":3,
+                   "text":"Alterações não autorizadas feitas por colaboradores.",
+                   "reason":"Conflitos de merge não se referem a alterações não autorizadas."
+                },
+                {
+                   "id":4,
+                   "text":"Situações em que alterações de diferentes branches não podem ser automaticamente combinadas.",
+                   "reason":"Correto! Conflitos de merge ocorrem quando o Git não pode combinar automaticamente alterações de branches diferentes."
+                }
+             ]
+          },
+          {
+             "id":7,
+             "title":"Tags",
+             "question":"Para que as tags são usadas no Git?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Para identificar branches.",
+                   "reason":"Tags não são usadas para identificar branches."
+                },
+                {
+                   "id":2,
+                   "text":"Para marcar pontos específicos na história do repositório, como lançamentos.",
+                   "reason":"Correto! As tags são usadas para marcar pontos importantes na história do repositório, como versões lançadas."
+                },
+                {
+                   "id":3,
+                   "text":"Para criar branches temporários.",
+                   "reason":"Isso não é a definição de tags."
+                },
+                {
+                   "id":4,
+                   "text":"Para alterar configurações do repositório.",
+                   "reason":"Tags não são usadas para alterar configurações do repositório."
+                }
+             ]
+          },
+          {
+             "id":8,
+             "title":"Stash",
+             "question":"O que é um stash no Git?",
+             "correct_alternative":3,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Uma lista de todos os commits de um repositório.",
+                   "reason":"Um stash não é uma lista de commits."
+                },
+                {
+                   "id":2,
+                   "text":"Um comando para descartar todas as alterações locais.",
+                   "reason":"Um stash não é um comando para descartar alterações."
+                },
+                {
+                   "id":3,
+                   "text":"Uma área de armazenamento temporário para guardar alterações não comprometidas.",
+                   "reason":"Correto! Um stash é uma área de armazenamento temporário."
+                },
+                {
+                   "id":4,
+                   "text":"Uma área especial do repositório onde os arquivos são armazenados permanentemente.",
+                   "reason":"Um stash não é uma área permanente para armazenar arquivos."
+                }
+             ]
+          },
+          {
+             "id":9,
+             "title":"Remote",
+             "question":"O que é um repositório remoto no Git?",
+             "correct_alternative":2,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Uma cópia local de um repositório.",
+                   "reason":"Um repositório remoto não é uma cópia local."
+                },
+                {
+                   "id":2,
+                   "text":"Uma versão do repositório armazenada em um servidor ou serviço online.",
+                   "reason":"Correto! Um repositório remoto é uma versão armazenada em um servidor."
+                },
+                {
+                   "id":3,
+                   "text":"Uma área de trabalho temporária para testar alterações.",
+                   "reason":"Um repositório remoto não é uma área de trabalho temporária."
+                },
+                {
+                   "id":4,
+                   "text":"Uma pasta onde os arquivos de configuração do Git são armazenados.",
+                   "reason":"Isso não descreve um repositório remoto."
+                }
+             ]
+          },
+          {
+             "id":10,
+             "title":"Pull Request",
+             "question":"O que é um Pull Request (PR) no Git?",
+             "correct_alternative":4,
+             "alternative_list":[
+                {
+                   "id":1,
+                   "text":"Um comando para atualizar um repositório local com as alterações remotas.",
+                   "reason":"Isso não é a definição de um Pull Request."
+                },
+                {
+                   "id":2,
+                   "text":"Uma solicitação para criar um novo branch.",
+                   "reason":"Um Pull Request não é uma solicitação para criar um novo branch."
+                },
+                {
+                   "id":3,
+                   "text":"Uma solicitação para mesclar alterações de um branch para outro.",
+                   "reason":"Um Pull Request envolve solicitar uma mesclagem, mas há mais nisso."
+                },
+                {
+                   "id":4,
+                   "text":"Uma solicitação para revisar e mesclar alterações de um branch em outro, geralmente em repositórios de código colaborativos.",
+                   "reason":"Correto! Um Pull Request é uma solicitação de revisão e mesclagem de alterações em repositórios colaborativos."
+                }
+             ]
+          }
+       ]
     }
-]
+ ]
