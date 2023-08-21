@@ -37,8 +37,8 @@ class _SettingsPage extends State<SettingsPage> {
                 ],
               ),
               const Divider(thickness: 1.5,),
-              Spacer(),
-              CreditsWidget()
+              const Spacer(),
+              const CreditsWidget()
             ],
           ),
         ));

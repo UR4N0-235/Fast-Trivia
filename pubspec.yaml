@@ -43,6 +43,7 @@ dependencies:
   path: any
   intl: any
   url_launcher: ^6.0.10
+  dio: any
   
 dev_dependencies:
   flutter_test:

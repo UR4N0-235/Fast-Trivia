@@ -39,14 +39,14 @@ class QuestionCard extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Colors.cyan, borderRadius: BorderRadius.circular(25)),
               child: Column(
-                children: [
-                  Text('questao sobre ${question.title}'),
-                  Text(question.question),
-                  ...List.generate(
-                      question.alternativeList.length,
-                      (index) =>
-                          Option(alternative: question.alternativeList[index]))
-                ],
+                  children: [
+                    Text('questao sobre ${question.title}'),
+                    Text(question.question),
+                    ...List.generate(
+                        question.alternativeList.length,
+                        (index) =>
+                            Option(alternative: question.alternativeList[index]))
+                  ],
               ),
             )
           ]);

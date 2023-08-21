@@ -1,32 +1,6 @@
-// import 'dart:async';
-// import 'dart:io';
-
-// import 'package:path/path.dart';
-// import 'package:path_provider/path_provider.dart';
-// import 'package:sqflite/sqflite.dart';
-
-// class DatabaseProvider {
-//   DatabaseProvider._();
-//   static final DatabaseProvider db = DatabaseProvider._();
-
-//   Database? _database;
-
-//   Future<Database> get database async {
-//     if(_database != null) return _database!;
-//     _database = await initDatabase();
-//     return _database!;
-//   }
-//   initDatabase() async{
-//     Directory documentDirectory = await getApplicationDocumentsDirectory();
-//     String path = join(documentDirectory.path, "FastTrivia.db");
-//     return await openDatabase(path, version: 1, onOpen: (db)=> {}, onCreate: (Database db, int version) async {
-//       await db.execute("")
-//     })
-//   }
-// }
-
 import 'dart:convert';
 
+import 'package:intl/intl.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -51,7 +25,7 @@ class DatabaseHelper {
       await db.execute('''
           CREATE TABLE IF NOT EXISTS questionary_response (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+            timestamp TEXT,
             correct_quantity INTEGER,
             questionary_id INTEGER,
             answers TEXT
@@ -66,6 +40,7 @@ class DatabaseHelper {
     return await db.insert('questionary_response', {
       'questionary_id': questionaryId,
       'answers': answers,
+      'timestamp': DateTime.now().toString(),
       'correct_quantity': correctQuantity
     });
   }
