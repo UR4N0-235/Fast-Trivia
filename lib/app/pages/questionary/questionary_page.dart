@@ -33,35 +33,37 @@ class _QuestionaryPage extends State<QuestionaryPage> {
             ),
             body: Obx(
               () => SafeArea(
-                  child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 12),
-                      child: Flexible(
-                          child: Column(children: [
-                        QuestionCard(
-                            question:
-                                questionaryController.getActualQuestion()),
-                        ElevatedButton(
-                            onPressed: () async {
-                              if (questionaryController.selectedAlternativeId !=
-                                  0) {
-                                questionaryController.nextQuestion();
-                                if (!questionaryController
-                                    .isLatesteQuestion()) {
-                                  questionaryController.updateQuestionNumber();
+                  child: SingleChildScrollView(
+                    child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 12),
+                        child: Flexible(
+                            child: Column(children: [
+                          QuestionCard(
+                              question:
+                                  questionaryController.getActualQuestion()),
+                          ElevatedButton(
+                              onPressed: () async {
+                                if (questionaryController.selectedAlternativeId !=
+                                    0) {
+                                  questionaryController.nextQuestion();
+                                  if (!questionaryController
+                                      .isLatesteQuestion()) {
+                                    questionaryController.updateQuestionNumber();
+                                  }
+                                } else {
+                                  Get.snackbar(
+                                    "Aviso",
+                                    "Por favor, selecione uma questao!",
+                                    snackPosition: SnackPosition.BOTTOM,
+                                  );
                                 }
-                              } else {
-                                Get.snackbar(
-                                  "Aviso",
-                                  "Por favor, selecione uma questao!",
-                                  snackPosition: SnackPosition.BOTTOM,
-                                );
-                              }
-                            },
-                            child: Text(
-                                questionaryController.isLatesteQuestion()
-                                    ? "Enviar"
-                                    : "proximo"))
-                      ])))),
+                              },
+                              child: Text(
+                                  questionaryController.isLatesteQuestion()
+                                      ? "Enviar"
+                                      : "proximo"))
+                        ]))),
+                  )),
             )));
   }
 }
