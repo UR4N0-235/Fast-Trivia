@@ -22,6 +22,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
   Widget build(BuildContext context) {
     QuestionaryController questionaryController =
         Get.put(QuestionaryController());
+        print("questionary id ${questionaryController.actualQuestionary.id}");
     return WillPopScope(
         onWillPop: () async {
           questionaryController.reset();
@@ -36,8 +37,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
                   child: SingleChildScrollView(
                     child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: Flexible(
-                            child: Column(children: [
+                        child: Column(children: [
                           QuestionCard(
                               question:
                                   questionaryController.getActualQuestion()),
@@ -62,7 +62,7 @@ class _QuestionaryPage extends State<QuestionaryPage> {
                                   questionaryController.isLatesteQuestion()
                                       ? "Enviar"
                                       : "proximo"))
-                        ]))),
+                        ])),
                   )),
             )));
   }

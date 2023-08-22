@@ -13,6 +13,8 @@ class QuestionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+            print("questioncard, ${question.id}");
+        // print(questionaryController.actualQuestion);
     return ValueListenableBuilder(
         valueListenable: AppController.instance.themeSwitch,
         builder: (context, isDark, child) {
