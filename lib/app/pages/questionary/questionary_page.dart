@@ -22,7 +22,6 @@ class _QuestionaryPage extends State<QuestionaryPage> {
   Widget build(BuildContext context) {
     QuestionaryController questionaryController =
         Get.put(QuestionaryController());
-        print("questionary id ${questionaryController.actualQuestionary.id}");
     return WillPopScope(
         onWillPop: () async {
           questionaryController.reset();
@@ -35,35 +34,32 @@ class _QuestionaryPage extends State<QuestionaryPage> {
             body: Obx(
               () => SafeArea(
                   child: SingleChildScrollView(
-                    child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: Column(children: [
-                          QuestionCard(
-                              question:
-                                  questionaryController.getActualQuestion()),
-                          ElevatedButton(
-                              onPressed: () async {
-                                if (questionaryController.selectedAlternativeId !=
-                                    0) {
-                                  questionaryController.nextQuestion();
-                                  if (!questionaryController
-                                      .isLatesteQuestion()) {
-                                    questionaryController.updateQuestionNumber();
-                                  }
-                                } else {
-                                  Get.snackbar(
-                                    "Aviso",
-                                    "Por favor, selecione uma questao!",
-                                    snackPosition: SnackPosition.BOTTOM,
-                                  );
-                                }
-                              },
-                              child: Text(
-                                  questionaryController.isLatesteQuestion()
-                                      ? "Enviar"
-                                      : "proximo"))
-                        ])),
-                  )),
+                child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Column(children: [
+                      QuestionCard(
+                          question: questionaryController.getActualQuestion()),
+                      ElevatedButton(
+                          onPressed: () async {
+                            if (questionaryController.selectedAlternativeId !=
+                                0) {
+                              questionaryController.nextQuestion();
+                              if (!questionaryController.isLatesteQuestion()) {
+                                questionaryController.updateQuestionNumber();
+                              }
+                            } else {
+                              Get.snackbar(
+                                "Aviso",
+                                "Por favor, selecione uma questao!",
+                                snackPosition: SnackPosition.BOTTOM,
+                              );
+                            }
+                          },
+                          child: Text(questionaryController.isLatesteQuestion()
+                              ? "Enviar"
+                              : "proximo"))
+                    ])),
+              )),
             )));
   }
 }

@@ -70,3 +70,6 @@ O pacote `flutter_test` é usado para escrever testes unitários e de widget no 
 ### [flutter_lints](https://pub.dev/packages/flutter_lints) - v2.0.0
 
 O pacote `flutter_lints` fornece um conjunto de lints recomendados para incentivar boas práticas de codificação. Essas verificações de lint ajudam a manter a qualidade do código.
+
+### Credit
+AppIcon by: <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Becris - Flaticon</a>
